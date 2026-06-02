@@ -1,0 +1,1153 @@
+<?xml version="1.0" encoding="UTF-8"?><unload unload_date="2026-06-02 13:48:33">
+<sys_remote_update_set action="INSERT_OR_UPDATE">
+<application display_value="Workspace reservation Management">30669244834543100582c810feaad3e9</application>
+<application_name>Workspace reservation Management</application_name>
+<application_scope>x_2057477_wrm</application_scope>
+<application_version>1.0.0</application_version>
+<collisions/>
+<commit_date/>
+<deleted/>
+<description/>
+<inserted/>
+<name>WRM STRY0009 Workspace Maintenance Table</name>
+<origin_sys_id/>
+<parent display_value=""/>
+<release_date/>
+<remote_base_update_set display_value=""/>
+<remote_parent_id/>
+<remote_sys_id>b4f79008839d8f500582c810feaad3c4</remote_sys_id>
+<state>loaded</state>
+<summary/>
+<sys_class_name>sys_remote_update_set</sys_class_name>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-06-02 13:48:32</sys_created_on>
+<sys_id>ba0ee1688359c3900582c810feaad39d</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-06-02 13:48:32</sys_updated_on>
+<update_set display_value=""/>
+<update_source display_value=""/>
+<updated/>
+</sys_remote_update_set>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Workspace reservation Management">30669244834543100582c810feaad3e9</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_x_2057477_wrm_workspace_maintenance_reservation</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update&gt;&lt;sys_dictionary action="INSERT_OR_UPDATE" element="reservation" table="x_2057477_wrm_workspace_maintenance"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;attributes/&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label&gt;Reservation&lt;/column_label&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;reservation&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;formula/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;internal_type display_value="Reference"&gt;reference&lt;/internal_type&gt;&lt;mandatory&gt;true&lt;/mandatory&gt;&lt;max_length&gt;32&lt;/max_length&gt;&lt;name&gt;x_2057477_wrm_workspace_maintenance&lt;/name&gt;&lt;next_element/&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference display_value="" name="x_2057477_wrm_reservation_tracker"&gt;x_2057477_wrm_reservation_tracker&lt;/reference&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_dictionary&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-05-31 19:43:07&lt;/sys_created_on&gt;&lt;sys_id&gt;e04aa8c08311cf500582c810feaad3b6&lt;/sys_id&gt;&lt;sys_name&gt;Reservation&lt;/sys_name&gt;&lt;sys_package display_value="Workspace reservation Management" source="x_2057477_wrm"&gt;30669244834543100582c810feaad3e9&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Workspace reservation Management"&gt;30669244834543100582c810feaad3e9&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_dictionary_x_2057477_wrm_workspace_maintenance_reservation&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-05-31 19:44:02&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;virtual_type&gt;script&lt;/virtual_type&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_dictionary&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-2082067449</payload_hash>
+<remote_update_set display_value="WRM STRY0009 Workspace Maintenance Table">ba0ee1688359c3900582c810feaad39d</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-06-02 13:48:32</sys_created_on>
+<sys_id>320ee1688359c3900582c810feaad3a2</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19e7f9096d70000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-06-02 13:48:32</sys_updated_on>
+<table>x_2057477_wrm_workspace_maintenance</table>
+<target_name>Workspace Maintenance.Reservation</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid>433c60001951cf50b291084ae935d713</update_guid>
+<update_guid_history>433c60001951cf50b291084ae935d713:-2082067449,250ce4cc0211cf508f3f9664005d007f:1949507090</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Workspace reservation Management">30669244834543100582c810feaad3e9</application>
+<category>customer</category>
+<comments/>
+<name>sys_number_420c28cc8311cf500582c810feaad351</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_number"><sys_number action="INSERT_OR_UPDATE"><category display_value="" name="x_2057477_wrm_workspace_maintenance">x_2057477_wrm_workspace_maintenance</category><maximum_digits>7</maximum_digits><number>1000</number><prefix>WRM</prefix><sys_class_name>sys_number</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-05-31 19:43:09</sys_created_on><sys_id>420c28cc8311cf500582c810feaad351</sys_id><sys_mod_count>0</sys_mod_count><sys_name>WRM</sys_name><sys_package display_value="Workspace reservation Management" source="x_2057477_wrm">30669244834543100582c810feaad3e9</sys_package><sys_policy/><sys_scope display_value="Workspace reservation Management">30669244834543100582c810feaad3e9</sys_scope><sys_update_name>sys_number_420c28cc8311cf500582c810feaad351</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-05-31 19:43:09</sys_updated_on></sys_number></record_update>]]></payload>
+<payload_hash>443765463</payload_hash>
+<remote_update_set display_value="WRM STRY0009 Workspace Maintenance Table">ba0ee1688359c3900582c810feaad39d</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-06-02 13:48:32</sys_created_on>
+<sys_id>320ee1688359c3900582c810feaad3a7</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19e7f8fca9a0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-06-02 13:48:32</sys_updated_on>
+<table/>
+<target_name>WRM</target_name>
+<type>Number</type>
+<update_domain>global</update_domain>
+<update_guid>120c28cc1b11cf50817f2b78c6aac580</update_guid>
+<update_guid_history>120c28cc1b11cf50817f2b78c6aac580:443765463</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Workspace reservation Management">30669244834543100582c810feaad3e9</application>
+<category>customer</category>
+<comments/>
+<name>sys_app_module_687760c08311cf500582c810feaad3ab</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module"><sys_app_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="Workspace Reservation Management">fd3308b483cd47100582c810feaad3ca</application><assessment/><device_type/><filter/><hint/><homepage/><image/><link_type>LIST</link_type><map_page/><mobile_title>All</mobile_title><mobile_view_name>Mobile</mobile_view_name><name>x_2057477_wrm_reservation_tracker</name><order>70</order><override_menu_roles>false</override_menu_roles><query/><report/><require_confirmation>true</require_confirmation><roles>x_2057477_wrm.wrm_agent</roles><sys_class_name>sys_app_module</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-05-31 19:24:21</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>687760c08311cf500582c810feaad3ab</sys_id><sys_mod_count>0</sys_mod_count><sys_name>All</sys_name><sys_overrides/><sys_package display_value="Workspace reservation Management" source="x_2057477_wrm">30669244834543100582c810feaad3e9</sys_package><sys_policy/><sys_scope display_value="Workspace reservation Management">30669244834543100582c810feaad3e9</sys_scope><sys_update_name>sys_app_module_687760c08311cf500582c810feaad3ab</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-05-31 19:24:21</sys_updated_on><timeline_page/><title>All</title><uncancelable>false</uncancelable><view_name/><window_name/></sys_app_module></record_update>]]></payload>
+<payload_hash>-58287871</payload_hash>
+<remote_update_set display_value="WRM STRY0009 Workspace Maintenance Table">ba0ee1688359c3900582c810feaad39d</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-06-02 13:48:32</sys_created_on>
+<sys_id>360ee1688359c3900582c810feaad39e</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19e7f7e91da0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-06-02 13:48:32</sys_updated_on>
+<table>x_2057477_wrm_reservation_tracker</table>
+<target_name>All</target_name>
+<type>Module</type>
+<update_domain>global</update_domain>
+<update_guid>a2b7ac842c11cf5004aed404437587d0</update_guid>
+<update_guid_history>a2b7ac842c11cf5004aed404437587d0:-58287871</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Workspace reservation Management">30669244834543100582c810feaad3e9</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_x_2057477_wrm_workspace_maintenance_work_performed</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update&gt;&lt;sys_dictionary action="INSERT_OR_UPDATE" element="work_performed" table="x_2057477_wrm_workspace_maintenance"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;attributes/&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label&gt;Work performed&lt;/column_label&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;work_performed&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;formula/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;internal_type display_value="String"&gt;string&lt;/internal_type&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;1000&lt;/max_length&gt;&lt;name&gt;x_2057477_wrm_workspace_maintenance&lt;/name&gt;&lt;next_element/&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_dictionary&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-05-31 19:54:30&lt;/sys_created_on&gt;&lt;sys_id&gt;0a3e28048351cf500582c810feaad3e0&lt;/sys_id&gt;&lt;sys_name&gt;Work performed&lt;/sys_name&gt;&lt;sys_package display_value="Workspace reservation Management" source="x_2057477_wrm"&gt;30669244834543100582c810feaad3e9&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Workspace reservation Management"&gt;30669244834543100582c810feaad3e9&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_dictionary_x_2057477_wrm_workspace_maintenance_work_performed&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-05-31 19:54:30&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;virtual_type&gt;script&lt;/virtual_type&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_dictionary&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-1059999938</payload_hash>
+<remote_update_set display_value="WRM STRY0009 Workspace Maintenance Table">ba0ee1688359c3900582c810feaad39d</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-06-02 13:48:32</sys_created_on>
+<sys_id>360ee1688359c3900582c810feaad3a3</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19e7f9a31cb0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-06-02 13:48:32</sys_updated_on>
+<table>x_2057477_wrm_workspace_maintenance</table>
+<target_name>Workspace Maintenance.Work performed </target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid>20ae6444e351cf500e21d6c3f8b88de9</update_guid>
+<update_guid_history>20ae6444e351cf500e21d6c3f8b88de9:-1059999938,d0aee044af51cf50f1033d20bbc9273f:-1059999938</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Workspace reservation Management">30669244834543100582c810feaad3e9</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_bd0ce4cc8311cf500582c810feaad3ba</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>true</admin_overrides><advanced>false</advanced><applies_to/><condition/><controlled_by_refs/><decision_type>allow</decision_type><description>Default access control on x_2057477_wrm_workspace_maintenance</description><local_or_existing>Existing</local_or_existing><name>x_2057477_wrm_workspace_maintenance</name><operation display_value="create">create</operation><script/><security_attribute/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-05-31 19:43:08</sys_created_on><sys_id>bd0ce4cc8311cf500582c810feaad3ba</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_2057477_wrm_workspace_maintenance</sys_name><sys_package display_value="Workspace reservation Management" source="x_2057477_wrm">30669244834543100582c810feaad3e9</sys_package><sys_policy/><sys_scope display_value="Workspace reservation Management">30669244834543100582c810feaad3e9</sys_scope><sys_update_name>sys_security_acl_bd0ce4cc8311cf500582c810feaad3ba</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-05-31 19:43:08</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+<payload_hash>123796324</payload_hash>
+<remote_update_set display_value="WRM STRY0009 Workspace Maintenance Table">ba0ee1688359c3900582c810feaad39d</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-06-02 13:48:32</sys_created_on>
+<sys_id>360ee1688359c3900582c810feaad3a8</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19e7f8fc2d80000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-06-02 13:48:32</sys_updated_on>
+<table>x_2057477_wrm_workspace_maintenance</table>
+<target_name>x_2057477_wrm_workspace_maintenance</target_name>
+<type>Access Control</type>
+<update_domain>global</update_domain>
+<update_guid>f10ce4cc0b11cf5005d5364b53c9dec2</update_guid>
+<update_guid_history>f10ce4cc0b11cf5005d5364b53c9dec2:123796324</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Workspace reservation Management">30669244834543100582c810feaad3e9</application>
+<category>customer</category>
+<comments/>
+<name>sys_choice_x_2057477_wrm_workspace_maintenance_workspace_status</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_choice action="INSERT_OR_UPDATE" field="workspace_status" table="x_2057477_wrm_workspace_maintenance" version="3"><sys_choice_set action="INSERT_OR_UPDATE"><element>workspace_status</element><name>x_2057477_wrm_workspace_maintenance</name><sys_class_name>sys_choice_set</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-05-31 19:48:12</sys_created_on><sys_id>083d60008351cf500582c810feaad3be</sys_id><sys_mod_count>0</sys_mod_count><sys_name>workspace_status</sys_name><sys_package display_value="Workspace reservation Management" source="x_2057477_wrm">30669244834543100582c810feaad3e9</sys_package><sys_policy/><sys_scope display_value="Workspace reservation Management">30669244834543100582c810feaad3e9</sys_scope><sys_update_name>sys_choice_x_2057477_wrm_workspace_maintenance_workspace_status</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-05-31 19:48:12</sys_updated_on></sys_choice_set><sys_choice action="INSERT_OR_UPDATE"><dependent_value/><element>workspace_status</element><hint/><inactive>false</inactive><label>Decommissioned</label><language>en</language><name>x_2057477_wrm_workspace_maintenance</name><sequence/><synonyms/><sys_created_by>admin</sys_created_by><sys_created_on>2026-05-31 19:48:42</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>333de0808351cf500582c810feaad3d0</sys_id><sys_mod_count>1</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-05-31 19:48:47</sys_updated_on><value/></sys_choice><sys_choice action="INSERT_OR_UPDATE"><dependent_value/><element>workspace_status</element><hint/><inactive>false</inactive><label>In maintenance</label><language>en</language><name>x_2057477_wrm_workspace_maintenance</name><sequence/><synonyms/><sys_created_by>admin</sys_created_by><sys_created_on>2026-05-31 19:48:12</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>4f0da0008351cf500582c810feaad341</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-05-31 19:48:12</sys_updated_on><value/></sys_choice><sys_choice action="INSERT_OR_UPDATE"><dependent_value/><element>workspace_status</element><hint/><inactive>false</inactive><label>Available</label><language>en</language><name>x_2057477_wrm_workspace_maintenance</name><sequence/><synonyms/><sys_created_by>admin</sys_created_by><sys_created_on>2026-05-31 19:48:26</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>c03da0808351cf500582c810feaad357</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-05-31 19:48:26</sys_updated_on><value/></sys_choice></sys_choice></record_update>]]></payload>
+<payload_hash>-1499424857</payload_hash>
+<remote_update_set display_value="WRM STRY0009 Workspace Maintenance Table">ba0ee1688359c3900582c810feaad39d</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-06-02 13:48:32</sys_created_on>
+<sys_id>3a0ee1688359c3900582c810feaad39f</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19e7f94f08d0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-06-02 13:48:32</sys_updated_on>
+<table>x_2057477_wrm_workspace_maintenance</table>
+<target_name>Workspace Maintenance.Workspace status</target_name>
+<type>Choice list</type>
+<update_domain>global</update_domain>
+<update_guid>e45d24083c11cf50d2cc7fccb8f15885</update_guid>
+<update_guid_history>e45d24083c11cf50d2cc7fccb8f15885:-1499424857,d34d6480d551cf509b6b54c772883399:-545471310,573de4083c11cf5012c378fd3b0241a2:-1432664857,843d60002351cf507afc39331648bdc2:-1228803693</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Workspace reservation Management">30669244834543100582c810feaad3e9</application>
+<category>customer</category>
+<comments/>
+<name>sys_documentation_x_2057477_wrm_workspace_maintenance_issue_description_en</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_documentation element="issue_description" label="Issue description " language="en" table="x_2057477_wrm_workspace_maintenance"><sys_documentation action="INSERT_OR_UPDATE"><element>issue_description</element><help/><hint/><label>Issue description </label><language>en</language><name>x_2057477_wrm_workspace_maintenance</name><plural>Issue description s</plural><sys_class_name>sys_documentation</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-05-31 19:51:47</sys_created_on><sys_id>640eecc08351cf500582c810feaad3af</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Issue description</sys_name><sys_package display_value="Workspace reservation Management" source="x_2057477_wrm">30669244834543100582c810feaad3e9</sys_package><sys_policy/><sys_scope display_value="Workspace reservation Management">30669244834543100582c810feaad3e9</sys_scope><sys_update_name>sys_documentation_x_2057477_wrm_workspace_maintenance_issue_description_en</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-05-31 19:51:47</sys_updated_on><url/><url_target/></sys_documentation></sys_documentation></record_update>]]></payload>
+<payload_hash>762598748</payload_hash>
+<remote_update_set display_value="WRM STRY0009 Workspace Maintenance Table">ba0ee1688359c3900582c810feaad39d</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-06-02 13:48:32</sys_created_on>
+<sys_id>3a0ee1688359c3900582c810feaad3a4</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19e7f97b1360000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-06-02 13:48:32</sys_updated_on>
+<table>x_2057477_wrm_workspace_maintenance</table>
+<target_name>Workspace Maintenance.Issue description </target_name>
+<type>Field Label</type>
+<update_domain>global</update_domain>
+<update_guid>a80eecc08351cf5096f0919d6be2aec9</update_guid>
+<update_guid_history>a80eecc08351cf5096f0919d6be2aec9:762598748</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Workspace reservation Management">30669244834543100582c810feaad3e9</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_role_f10ce4cc8311cf500582c810feaad3c4</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-05-31 19:43:08</sys_created_on><sys_id>f10ce4cc8311cf500582c810feaad3c4</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_2057477_wrm_workspace_maintenance.x_2057477_wrm.workspace_maintenance_user</sys_name><sys_package display_value="Workspace reservation Management" source="x_2057477_wrm">30669244834543100582c810feaad3e9</sys_package><sys_policy/><sys_scope display_value="Workspace reservation Management">30669244834543100582c810feaad3e9</sys_scope><sys_security_acl display_value="x_2057477_wrm_workspace_maintenance">bd0ce4cc8311cf500582c810feaad3ba</sys_security_acl><sys_update_name>sys_security_acl_role_f10ce4cc8311cf500582c810feaad3c4</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-05-31 19:43:08</sys_updated_on><sys_user_role display_value="x_2057477_wrm.workspace_maintenance_user" name="x_2057477_wrm.workspace_maintenance_user">150c60cc8311cf500582c810feaad31c</sys_user_role></sys_security_acl_role></record_update>]]></payload>
+<payload_hash>1047205105</payload_hash>
+<remote_update_set display_value="WRM STRY0009 Workspace Maintenance Table">ba0ee1688359c3900582c810feaad39d</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-06-02 13:48:32</sys_created_on>
+<sys_id>3a0ee1688359c3900582c810feaad3a9</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19e7f8fc3200000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-06-02 13:48:32</sys_updated_on>
+<table>x_2057477_wrm_workspace_maintenance</table>
+<target_name>x_2057477_wrm_workspace_maintenance.x_2057477_wrm.workspace_maintenance_user</target_name>
+<type>Access Roles</type>
+<update_domain>global</update_domain>
+<update_guid>b10ce4ccdb11cf50e4e4c17b58beddcb</update_guid>
+<update_guid_history>b10ce4ccdb11cf50e4e4c17b58beddcb:1047205105</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Workspace reservation Management">30669244834543100582c810feaad3e9</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_x_2057477_wrm_workspace_maintenance_date_reported</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update&gt;&lt;sys_dictionary action="INSERT_OR_UPDATE" element="date_reported" table="x_2057477_wrm_workspace_maintenance"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;attributes/&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label&gt;Date reported&lt;/column_label&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;date_reported&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;formula/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;internal_type display_value=""&gt;glide_date&lt;/internal_type&gt;&lt;mandatory&gt;true&lt;/mandatory&gt;&lt;max_length&gt;40&lt;/max_length&gt;&lt;name&gt;x_2057477_wrm_workspace_maintenance&lt;/name&gt;&lt;next_element/&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_dictionary&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-05-31 19:50:54&lt;/sys_created_on&gt;&lt;sys_id&gt;93bda4c08351cf500582c810feaad373&lt;/sys_id&gt;&lt;sys_name&gt;Date reported&lt;/sys_name&gt;&lt;sys_package display_value="Workspace reservation Management" source="x_2057477_wrm"&gt;30669244834543100582c810feaad3e9&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Workspace reservation Management"&gt;30669244834543100582c810feaad3e9&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_dictionary_x_2057477_wrm_workspace_maintenance_date_reported&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-05-31 19:50:54&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;virtual_type&gt;script&lt;/virtual_type&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_dictionary&gt;&lt;/record_update&gt;</payload>
+<payload_hash>1293956760</payload_hash>
+<remote_update_set display_value="WRM STRY0009 Workspace Maintenance Table">ba0ee1688359c3900582c810feaad39d</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-06-02 13:48:32</sys_created_on>
+<sys_id>3e0ee1688359c3900582c810feaad3a0</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19e7f96e0f20000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-06-02 13:48:32</sys_updated_on>
+<table>x_2057477_wrm_workspace_maintenance</table>
+<target_name>Workspace Maintenance.Date reported</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid>67cd68c05951cf5081492289218e4750</update_guid>
+<update_guid_history>67cd68c05951cf5081492289218e4750:1293956760</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Workspace reservation Management">30669244834543100582c810feaad3e9</application>
+<category>customer</category>
+<comments/>
+<name>sys_documentation_x_2057477_wrm_workspace_maintenance_workspace_en</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_documentation element="workspace" label="Workspace " language="en" table="x_2057477_wrm_workspace_maintenance"><sys_documentation action="INSERT_OR_UPDATE"><element>workspace</element><help/><hint/><label>Workspace </label><language>en</language><name>x_2057477_wrm_workspace_maintenance</name><plural>Workspace s</plural><sys_class_name>sys_documentation</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-05-31 19:45:16</sys_created_on><sys_id>018ca8008351cf500582c810feaad39e</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Workspace</sys_name><sys_package display_value="Workspace reservation Management" source="x_2057477_wrm">30669244834543100582c810feaad3e9</sys_package><sys_policy/><sys_scope display_value="Workspace reservation Management">30669244834543100582c810feaad3e9</sys_scope><sys_update_name>sys_documentation_x_2057477_wrm_workspace_maintenance_workspace_en</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-05-31 19:45:16</sys_updated_on><url/><url_target/></sys_documentation></sys_documentation></record_update>]]></payload>
+<payload_hash>626975514</payload_hash>
+<remote_update_set display_value="WRM STRY0009 Workspace Maintenance Table">ba0ee1688359c3900582c810feaad39d</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-06-02 13:48:32</sys_created_on>
+<sys_id>3e0ee1688359c3900582c810feaad3a5</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19e7f91b7620000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-06-02 13:48:32</sys_updated_on>
+<table>x_2057477_wrm_workspace_maintenance</table>
+<target_name>Workspace Maintenance.Workspace </target_name>
+<type>Field Label</type>
+<update_domain>global</update_domain>
+<update_guid>858ce800d951cf502220321991fa5f69</update_guid>
+<update_guid_history>858ce800d951cf502220321991fa5f69:626975514</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Workspace reservation Management">30669244834543100582c810feaad3e9</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_x_2057477_wrm_workspace_maintenance_issue_description</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update&gt;&lt;sys_dictionary action="INSERT_OR_UPDATE" element="issue_description" table="x_2057477_wrm_workspace_maintenance"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;attributes/&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label&gt;Issue description &lt;/column_label&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;issue_description&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;formula/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;internal_type display_value="String"&gt;string&lt;/internal_type&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;1000&lt;/max_length&gt;&lt;name&gt;x_2057477_wrm_workspace_maintenance&lt;/name&gt;&lt;next_element/&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_dictionary&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-05-31 19:51:47&lt;/sys_created_on&gt;&lt;sys_id&gt;e2dde8c08351cf500582c810feaad36c&lt;/sys_id&gt;&lt;sys_name&gt;Issue description &lt;/sys_name&gt;&lt;sys_package display_value="Workspace reservation Management" source="x_2057477_wrm"&gt;30669244834543100582c810feaad3e9&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Workspace reservation Management"&gt;30669244834543100582c810feaad3e9&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_dictionary_x_2057477_wrm_workspace_maintenance_issue_description&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-05-31 19:52:05&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;virtual_type&gt;script&lt;/virtual_type&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_dictionary&gt;&lt;/record_update&gt;</payload>
+<payload_hash>1519408688</payload_hash>
+<remote_update_set display_value="WRM STRY0009 Workspace Maintenance Table">ba0ee1688359c3900582c810feaad39d</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-06-02 13:48:32</sys_created_on>
+<sys_id>720ee1688359c3900582c810feaad3a1</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19e7f97f5bd0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-06-02 13:48:32</sys_updated_on>
+<table>x_2057477_wrm_workspace_maintenance</table>
+<target_name>Workspace Maintenance.Issue description </target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid>f81ee0044d51cf50c5ff95cff109adc9</update_guid>
+<update_guid_history>f81ee0044d51cf50c5ff95cff109adc9:1519408688,ac0ee4c01e51cf504b8484dc415d4537:-1502517412</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Workspace reservation Management">30669244834543100582c810feaad3e9</application>
+<category>customer</category>
+<comments/>
+<name>sys_documentation_x_2057477_wrm_workspace_maintenance_workspace_status_en</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_documentation element="workspace_status" label="Workspace status" language="en" table="x_2057477_wrm_workspace_maintenance"><sys_documentation action="INSERT_OR_UPDATE"><element>workspace_status</element><help/><hint/><label>Workspace status</label><language>en</language><name>x_2057477_wrm_workspace_maintenance</name><plural>Workspace status</plural><sys_class_name>sys_documentation</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-05-31 19:47:22</sys_created_on><sys_id>7bfce8408351cf500582c810feaad3b9</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Workspace status</sys_name><sys_package display_value="Workspace reservation Management" source="x_2057477_wrm">30669244834543100582c810feaad3e9</sys_package><sys_policy/><sys_scope display_value="Workspace reservation Management">30669244834543100582c810feaad3e9</sys_scope><sys_update_name>sys_documentation_x_2057477_wrm_workspace_maintenance_workspace_status_en</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-05-31 19:47:22</sys_updated_on><url/><url_target/></sys_documentation></sys_documentation></record_update>]]></payload>
+<payload_hash>-1091050503</payload_hash>
+<remote_update_set display_value="WRM STRY0009 Workspace Maintenance Table">ba0ee1688359c3900582c810feaad39d</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-06-02 13:48:32</sys_created_on>
+<sys_id>720ee1688359c3900582c810feaad3a6</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19e7f93a6200000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-06-02 13:48:32</sys_updated_on>
+<table>x_2057477_wrm_workspace_maintenance</table>
+<target_name>Workspace Maintenance.Workspace status</target_name>
+<type>Field Label</type>
+<update_domain>global</update_domain>
+<update_guid>8c0de8402951cf5000ec30ac3c3e27d2</update_guid>
+<update_guid_history>8c0de8402951cf5000ec30ac3c3e27d2:-1091050503</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Workspace reservation Management">30669244834543100582c810feaad3e9</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_x_2057477_wrm_workspace_maintenance_ticket_status</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update&gt;&lt;sys_dictionary action="INSERT_OR_UPDATE" element="ticket_status" table="x_2057477_wrm_workspace_maintenance"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;attributes/&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice&gt;1&lt;/choice&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label&gt;Ticket status&lt;/column_label&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;ticket_status&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;formula/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;internal_type display_value="Choice"&gt;choice&lt;/internal_type&gt;&lt;mandatory&gt;true&lt;/mandatory&gt;&lt;max_length&gt;40&lt;/max_length&gt;&lt;name&gt;x_2057477_wrm_workspace_maintenance&lt;/name&gt;&lt;next_element/&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_dictionary&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-05-31 19:49:39&lt;/sys_created_on&gt;&lt;sys_id&gt;976da8808351cf500582c810feaad367&lt;/sys_id&gt;&lt;sys_name&gt;Ticket status&lt;/sys_name&gt;&lt;sys_package display_value="Workspace reservation Management" source="x_2057477_wrm"&gt;30669244834543100582c810feaad3e9&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Workspace reservation Management"&gt;30669244834543100582c810feaad3e9&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_dictionary_x_2057477_wrm_workspace_maintenance_ticket_status&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-05-31 19:50:14&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;virtual_type&gt;script&lt;/virtual_type&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_dictionary&gt;&lt;/record_update&gt;</payload>
+<payload_hash>1378263302</payload_hash>
+<remote_update_set display_value="WRM STRY0009 Workspace Maintenance Table">ba0ee1688359c3900582c810feaad39d</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-06-02 13:48:32</sys_created_on>
+<sys_id>760ee1688359c3900582c810feaad3a2</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19e7f96447f0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-06-02 13:48:32</sys_updated_on>
+<table>x_2057477_wrm_workspace_maintenance</table>
+<target_name>Workspace Maintenance.Ticket status</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid>7dad60c01a51cf5047fa431b5c899a3d</update_guid>
+<update_guid_history>7dad60c01a51cf5047fa431b5c899a3d:1378263302,858d6c805551cf507b7c8e19cbcfb922:231573449</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Workspace reservation Management">30669244834543100582c810feaad3e9</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_390ce4cc8311cf500582c810feaad3cd</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>true</admin_overrides><advanced>false</advanced><applies_to/><condition/><controlled_by_refs/><decision_type>allow</decision_type><description>Default access control on x_2057477_wrm_workspace_maintenance</description><local_or_existing>Existing</local_or_existing><name>x_2057477_wrm_workspace_maintenance</name><operation display_value="read">read</operation><script/><security_attribute/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-05-31 19:43:08</sys_created_on><sys_id>390ce4cc8311cf500582c810feaad3cd</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_2057477_wrm_workspace_maintenance</sys_name><sys_package display_value="Workspace reservation Management" source="x_2057477_wrm">30669244834543100582c810feaad3e9</sys_package><sys_policy/><sys_scope display_value="Workspace reservation Management">30669244834543100582c810feaad3e9</sys_scope><sys_update_name>sys_security_acl_390ce4cc8311cf500582c810feaad3cd</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-05-31 19:43:08</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+<payload_hash>2118208944</payload_hash>
+<remote_update_set display_value="WRM STRY0009 Workspace Maintenance Table">ba0ee1688359c3900582c810feaad39d</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-06-02 13:48:32</sys_created_on>
+<sys_id>760ee1688359c3900582c810feaad3a7</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19e7f8fc3530000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-06-02 13:48:32</sys_updated_on>
+<table>x_2057477_wrm_workspace_maintenance</table>
+<target_name>x_2057477_wrm_workspace_maintenance</target_name>
+<type>Access Control</type>
+<update_domain>global</update_domain>
+<update_guid>b10ce4ccdf11cf50deea7f18f42519d1</update_guid>
+<update_guid_history>b10ce4ccdf11cf50deea7f18f42519d1:2118208944</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Workspace reservation Management">30669244834543100582c810feaad3e9</application>
+<category>customer</category>
+<comments/>
+<name>sys_app_module_a8a4087883cd47100582c810feaad322</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module"><sys_app_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="Workspace Reservation Management">fd3308b483cd47100582c810feaad3ca</application><assessment/><device_type/><filter/><hint/><homepage/><image/><link_type>LIST</link_type><map_page/><mobile_title>All</mobile_title><mobile_view_name>Mobile</mobile_view_name><name>x_2057477_wrm_workspace_options</name><order>30</order><override_menu_roles>false</override_menu_roles><query/><report/><require_confirmation>true</require_confirmation><roles>x_2057477_wrm.wrm_admin</roles><sys_class_name>sys_app_module</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-05-21 14:54:09</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>a8a4087883cd47100582c810feaad322</sys_id><sys_mod_count>3</sys_mod_count><sys_name>All</sys_name><sys_overrides/><sys_package display_value="Workspace reservation Management" source="x_2057477_wrm">30669244834543100582c810feaad3e9</sys_package><sys_policy/><sys_scope display_value="Workspace reservation Management">30669244834543100582c810feaad3e9</sys_scope><sys_update_name>sys_app_module_a8a4087883cd47100582c810feaad322</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-05-31 19:22:49</sys_updated_on><timeline_page/><title>All</title><uncancelable>false</uncancelable><view_name/><window_name/></sys_app_module></record_update>]]></payload>
+<payload_hash>-1715319682</payload_hash>
+<remote_update_set display_value="WRM STRY0009 Workspace Maintenance Table">ba0ee1688359c3900582c810feaad39d</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-06-02 13:48:32</sys_created_on>
+<sys_id>7a0ee1688359c3900582c810feaad39e</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19e7f7d29fc0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-06-02 13:48:32</sys_updated_on>
+<table>x_2057477_wrm_workspace_options</table>
+<target_name>All</target_name>
+<type>Module</type>
+<update_domain>global</update_domain>
+<update_guid>d067a8c04a11cf50d717fcb800059aa1</update_guid>
+<update_guid_history>d067a8c04a11cf50d717fcb800059aa1:-1715319682,d87790c4e09d8f50dacadf5359589a23:-1456795259,282a84f486cd4710765c59675acd3c07:-1715319682,47f908b06b018710d12baf410fc24a2b:2073355427</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Workspace reservation Management">30669244834543100582c810feaad3e9</application>
+<category>customer</category>
+<comments/>
+<name>sys_documentation_x_2057477_wrm_workspace_maintenance_assigned_to_en</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_documentation element="assigned_to" label="Assigned to " language="en" table="x_2057477_wrm_workspace_maintenance"><sys_documentation action="INSERT_OR_UPDATE"><element>assigned_to</element><help/><hint/><label>Assigned to </label><language>en</language><name>x_2057477_wrm_workspace_maintenance</name><plural>Assigned to s</plural><sys_class_name>sys_documentation</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-05-31 19:54:31</sys_created_on><sys_id>24ae64448351cf500582c810feaad3d4</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Assigned to</sys_name><sys_package display_value="Workspace reservation Management" source="x_2057477_wrm">30669244834543100582c810feaad3e9</sys_package><sys_policy/><sys_scope display_value="Workspace reservation Management">30669244834543100582c810feaad3e9</sys_scope><sys_update_name>sys_documentation_x_2057477_wrm_workspace_maintenance_assigned_to_en</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-05-31 19:54:31</sys_updated_on><url/><url_target/></sys_documentation></sys_documentation></record_update>]]></payload>
+<payload_hash>-1245531768</payload_hash>
+<remote_update_set display_value="WRM STRY0009 Workspace Maintenance Table">ba0ee1688359c3900582c810feaad39d</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-06-02 13:48:32</sys_created_on>
+<sys_id>7a0ee1688359c3900582c810feaad3a3</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19e7f9a32500000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-06-02 13:48:32</sys_updated_on>
+<table>x_2057477_wrm_workspace_maintenance</table>
+<target_name>Workspace Maintenance.Assigned to </target_name>
+<type>Field Label</type>
+<update_domain>global</update_domain>
+<update_guid>b8ae64447651cf50183b925bdb1c89f7</update_guid>
+<update_guid_history>b8ae64447651cf50183b925bdb1c89f7:-1245531768</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Workspace reservation Management">30669244834543100582c810feaad3e9</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_role_310ce4cc8311cf500582c810feaad3d3</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-05-31 19:43:08</sys_created_on><sys_id>310ce4cc8311cf500582c810feaad3d3</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_2057477_wrm_workspace_maintenance.x_2057477_wrm.workspace_maintenance_user</sys_name><sys_package display_value="Workspace reservation Management" source="x_2057477_wrm">30669244834543100582c810feaad3e9</sys_package><sys_policy/><sys_scope display_value="Workspace reservation Management">30669244834543100582c810feaad3e9</sys_scope><sys_security_acl display_value="x_2057477_wrm_workspace_maintenance">390ce4cc8311cf500582c810feaad3cd</sys_security_acl><sys_update_name>sys_security_acl_role_310ce4cc8311cf500582c810feaad3d3</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-05-31 19:43:08</sys_updated_on><sys_user_role display_value="x_2057477_wrm.workspace_maintenance_user" name="x_2057477_wrm.workspace_maintenance_user">150c60cc8311cf500582c810feaad31c</sys_user_role></sys_security_acl_role></record_update>]]></payload>
+<payload_hash>-1137669141</payload_hash>
+<remote_update_set display_value="WRM STRY0009 Workspace Maintenance Table">ba0ee1688359c3900582c810feaad39d</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-06-02 13:48:32</sys_created_on>
+<sys_id>7a0ee1688359c3900582c810feaad3a8</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19e7f8fc37f0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-06-02 13:48:32</sys_updated_on>
+<table>x_2057477_wrm_workspace_maintenance</table>
+<target_name>x_2057477_wrm_workspace_maintenance.x_2057477_wrm.workspace_maintenance_user</target_name>
+<type>Access Roles</type>
+<update_domain>global</update_domain>
+<update_guid>710ce4cc7f11cf50aa40efa888fc02d7</update_guid>
+<update_guid_history>710ce4cc7f11cf50aa40efa888fc02d7:-1137669141</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Workspace reservation Management">30669244834543100582c810feaad3e9</application>
+<category>customer</category>
+<comments/>
+<name>sys_db_object_323a6cc88311cf500582c810feaad355</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_db_object"><sys_db_object action="INSERT_OR_UPDATE"><access>public</access><actions_access>false</actions_access><alter_access>false</alter_access><caller_access/><client_scripts_access>false</client_scripts_access><configuration_access>false</configuration_access><create_access>false</create_access><create_access_controls>true</create_access_controls><delete_access>false</delete_access><filter_extension/><is_df_table>false</is_df_table><is_extendable>false</is_extendable><label>Workspace Maintenance</label><live_feed_enabled>false</live_feed_enabled><name>x_2057477_wrm_workspace_maintenance</name><number_ref display_value="WRM">420c28cc8311cf500582c810feaad351</number_ref><provider_class/><read_access>true</read_access><scriptable_table>false</scriptable_table><super_class/><sys_class_name>sys_db_object</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-05-31 19:43:07</sys_created_on><sys_id>323a6cc88311cf500582c810feaad355</sys_id><sys_mod_count>1</sys_mod_count><sys_name>Workspace Maintenance</sys_name><sys_package display_value="Workspace reservation Management" source="x_2057477_wrm">30669244834543100582c810feaad3e9</sys_package><sys_policy/><sys_scope display_value="Workspace reservation Management">30669244834543100582c810feaad3e9</sys_scope><sys_update_name>sys_db_object_323a6cc88311cf500582c810feaad355</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-05-31 19:43:09</sys_updated_on><update_access>false</update_access><user_role display_value="x_2057477_wrm.workspace_maintenance_user" name="x_2057477_wrm.workspace_maintenance_user">150c60cc8311cf500582c810feaad31c</user_role><ws_access>true</ws_access></sys_db_object></record_update>]]></payload>
+<payload_hash>-1362987969</payload_hash>
+<remote_update_set display_value="WRM STRY0009 Workspace Maintenance Table">ba0ee1688359c3900582c810feaad39d</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-06-02 13:48:32</sys_created_on>
+<sys_id>7e0ee1688359c3900582c810feaad39f</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19e7f8fc88c0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-06-02 13:48:32</sys_updated_on>
+<table>x_2057477_wrm_workspace_maintenance</table>
+<target_name>Workspace Maintenance</target_name>
+<type>Table</type>
+<update_domain>global</update_domain>
+<update_guid>8e0c28cc7011cf50f133e5d6385e5a59</update_guid>
+<update_guid_history>8e0c28cc7011cf50f133e5d6385e5a59:-1362987969,0a0c28cc7811cf5060e9df091cb3924e:856381122</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Workspace reservation Management">30669244834543100582c810feaad3e9</application>
+<category>customer</category>
+<comments/>
+<name>sys_documentation_x_2057477_wrm_workspace_maintenance_number_en</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_documentation element="number" label="Number" language="en" table="x_2057477_wrm_workspace_maintenance"><sys_documentation action="INSERT_OR_UPDATE"><element>number</element><help/><hint/><label>Number</label><language>en</language><name>x_2057477_wrm_workspace_maintenance</name><plural>Numbers</plural><sys_class_name>sys_documentation</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-05-31 19:43:10</sys_created_on><sys_id>020c28cc8311cf500582c810feaad362</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Number</sys_name><sys_package display_value="Workspace reservation Management" source="x_2057477_wrm">30669244834543100582c810feaad3e9</sys_package><sys_policy/><sys_scope display_value="Workspace reservation Management">30669244834543100582c810feaad3e9</sys_scope><sys_update_name>sys_documentation_x_2057477_wrm_workspace_maintenance_number_en</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-05-31 19:43:10</sys_updated_on><url/><url_target/></sys_documentation></sys_documentation></record_update>]]></payload>
+<payload_hash>-228330530</payload_hash>
+<remote_update_set display_value="WRM STRY0009 Workspace Maintenance Table">ba0ee1688359c3900582c810feaad39d</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-06-02 13:48:32</sys_created_on>
+<sys_id>7e0ee1688359c3900582c810feaad3a4</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19e7f8fca700000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-06-02 13:48:32</sys_updated_on>
+<table>x_2057477_wrm_workspace_maintenance</table>
+<target_name>Workspace Maintenance.Number</target_name>
+<type>Field Label</type>
+<update_domain>global</update_domain>
+<update_guid>1e0c28cc0611cf5056038673b4b5027c</update_guid>
+<update_guid_history>1e0c28cc0611cf5056038673b4b5027c:-228330530</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Workspace reservation Management">30669244834543100582c810feaad3e9</application>
+<category>customer</category>
+<comments/>
+<name>sys_ui_application_f90ce4cc8311cf500582c810feaad3a1</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_application"><sys_ui_application action="INSERT_OR_UPDATE"><active>true</active><hint/><name>Workspace Maintenance</name><order/><roles>x_2057477_wrm.workspace_maintenance_user</roles><sys_class_name>sys_ui_application</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-05-31 19:43:08</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>f90ce4cc8311cf500582c810feaad3a1</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Workspace Maintenance</sys_name><sys_overrides/><sys_package display_value="Workspace reservation Management" source="x_2057477_wrm">30669244834543100582c810feaad3e9</sys_package><sys_policy/><sys_scope display_value="Workspace reservation Management">30669244834543100582c810feaad3e9</sys_scope><sys_update_name>sys_ui_application_f90ce4cc8311cf500582c810feaad3a1</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-05-31 19:43:08</sys_updated_on></sys_ui_application></record_update>]]></payload>
+<payload_hash>495629221</payload_hash>
+<remote_update_set display_value="WRM STRY0009 Workspace Maintenance Table">ba0ee1688359c3900582c810feaad39d</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-06-02 13:48:32</sys_created_on>
+<sys_id>7e0ee1688359c3900582c810feaad3a9</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19e7f8fc2310000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-06-02 13:48:32</sys_updated_on>
+<table/>
+<target_name>Workspace Maintenance</target_name>
+<type>Application Menu</type>
+<update_domain>global</update_domain>
+<update_guid>f50ce4cce011cf50b00cf02c2f1919a5</update_guid>
+<update_guid_history>f50ce4cce011cf50b00cf02c2f1919a5:495629221</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Workspace reservation Management">30669244834543100582c810feaad3e9</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_x_2057477_wrm_workspace_maintenance_assigned_to</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update&gt;&lt;sys_dictionary action="INSERT_OR_UPDATE" element="assigned_to" table="x_2057477_wrm_workspace_maintenance"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;attributes/&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label&gt;Assigned to&lt;/column_label&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;assigned_to&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;formula/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;internal_type display_value="Reference"&gt;reference&lt;/internal_type&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;32&lt;/max_length&gt;&lt;name&gt;x_2057477_wrm_workspace_maintenance&lt;/name&gt;&lt;next_element/&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference display_value="" name="sys_user"&gt;sys_user&lt;/reference&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_dictionary&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-05-31 19:54:31&lt;/sys_created_on&gt;&lt;sys_id&gt;b96e64048351cf500582c810feaad323&lt;/sys_id&gt;&lt;sys_name&gt;Assigned to&lt;/sys_name&gt;&lt;sys_package display_value="Workspace reservation Management" source="x_2057477_wrm"&gt;30669244834543100582c810feaad3e9&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Workspace reservation Management"&gt;30669244834543100582c810feaad3e9&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_dictionary_x_2057477_wrm_workspace_maintenance_assigned_to&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-05-31 19:54:31&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;virtual_type&gt;script&lt;/virtual_type&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_dictionary&gt;&lt;/record_update&gt;</payload>
+<payload_hash>1877637190</payload_hash>
+<remote_update_set display_value="WRM STRY0009 Workspace Maintenance Table">ba0ee1688359c3900582c810feaad39d</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-06-02 13:48:32</sys_created_on>
+<sys_id>b20ee1688359c3900582c810feaad3a0</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19e7f9a32180000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-06-02 13:48:32</sys_updated_on>
+<table>x_2057477_wrm_workspace_maintenance</table>
+<target_name>Workspace Maintenance.Assigned to </target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid>34ae6444ff51cf505812bc23fb5fc3ef</update_guid>
+<update_guid_history>34ae6444ff51cf505812bc23fb5fc3ef:1877637190,e0ae6444c451cf504d9f9c41aaab29cb:1877637190</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Workspace reservation Management">30669244834543100582c810feaad3e9</application>
+<category>customer</category>
+<comments/>
+<name>sys_documentation_x_2057477_wrm_workspace_maintenance_reservation_en</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_documentation element="reservation" label="Reservation" language="en" table="x_2057477_wrm_workspace_maintenance"><sys_documentation action="INSERT_OR_UPDATE"><element>reservation</element><help/><hint/><label>Reservation</label><language>en</language><name>x_2057477_wrm_workspace_maintenance</name><plural>Reservations</plural><sys_class_name>sys_documentation</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-05-31 19:43:09</sys_created_on><sys_id>f90ce4cc8311cf500582c810feaad3fc</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Reservation</sys_name><sys_package display_value="Workspace reservation Management" source="x_2057477_wrm">30669244834543100582c810feaad3e9</sys_package><sys_policy/><sys_scope display_value="Workspace reservation Management">30669244834543100582c810feaad3e9</sys_scope><sys_update_name>sys_documentation_x_2057477_wrm_workspace_maintenance_reservation_en</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-05-31 19:43:09</sys_updated_on><url/><url_target/></sys_documentation></sys_documentation></record_update>]]></payload>
+<payload_hash>517117564</payload_hash>
+<remote_update_set display_value="WRM STRY0009 Workspace Maintenance Table">ba0ee1688359c3900582c810feaad39d</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-06-02 13:48:32</sys_created_on>
+<sys_id>b20ee1688359c3900582c810feaad3a5</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19e7f8fc8060000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-06-02 13:48:32</sys_updated_on>
+<table>x_2057477_wrm_workspace_maintenance</table>
+<target_name>Workspace Maintenance.Reservation</target_name>
+<type>Field Label</type>
+<update_domain>global</update_domain>
+<update_guid>4a0c28ccb011cf5065e2a1258831bf4b</update_guid>
+<update_guid_history>4a0c28ccb011cf5065e2a1258831bf4b:517117564</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Workspace reservation Management">30669244834543100582c810feaad3e9</application>
+<category>customer</category>
+<comments/>
+<name>sys_ui_module_b50ce4cc8311cf500582c810feaad3a7</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_module"><sys_ui_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="Workspace Maintenance">f90ce4cc8311cf500582c810feaad3a1</application><filter/><name>Workspace Maintenances</name><order/><path/><path_relative_to_root>false</path_relative_to_root><roles>x_2057477_wrm.workspace_maintenance_user</roles><sys_class_name>sys_ui_module</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-05-31 19:43:08</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>b50ce4cc8311cf500582c810feaad3a7</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Workspace Maintenances</sys_name><sys_package display_value="Workspace reservation Management" source="x_2057477_wrm">30669244834543100582c810feaad3e9</sys_package><sys_policy/><sys_scope display_value="Workspace reservation Management">30669244834543100582c810feaad3e9</sys_scope><sys_update_name>sys_ui_module_b50ce4cc8311cf500582c810feaad3a7</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-05-31 19:43:08</sys_updated_on><table>x_2057477_wrm_workspace_maintenance</table><uncancelable>false</uncancelable><view_name/></sys_ui_module></record_update>]]></payload>
+<payload_hash>1432627658</payload_hash>
+<remote_update_set display_value="WRM STRY0009 Workspace Maintenance Table">ba0ee1688359c3900582c810feaad39d</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-06-02 13:48:32</sys_created_on>
+<sys_id>b20ee1688359c3900582c810feaad3aa</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19e7f8fc2750000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-06-02 13:48:32</sys_updated_on>
+<table>x_2057477_wrm_workspace_maintenance</table>
+<target_name>Workspace Maintenances</target_name>
+<type>Module</type>
+<update_domain>global</update_domain>
+<update_guid>7d0ce4cc8a11cf5082eab7ffa94d46ab</update_guid>
+<update_guid_history>7d0ce4cc8a11cf5082eab7ffa94d46ab:1432627658</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Workspace reservation Management">30669244834543100582c810feaad3e9</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_x_2057477_wrm_workspace_maintenance_null</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update&gt;&lt;sys_dictionary action="INSERT_OR_UPDATE" element="" table="x_2057477_wrm_workspace_maintenance"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;attributes/&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label/&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element/&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;formula/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;internal_type display_value="Collection"&gt;collection&lt;/internal_type&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;40&lt;/max_length&gt;&lt;name&gt;x_2057477_wrm_workspace_maintenance&lt;/name&gt;&lt;next_element/&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_dictionary&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-05-31 19:43:08&lt;/sys_created_on&gt;&lt;sys_id&gt;750ce4cc8311cf500582c810feaad3f0&lt;/sys_id&gt;&lt;sys_name&gt;x_2057477_wrm_workspace_maintenance&lt;/sys_name&gt;&lt;sys_package display_value="Workspace reservation Management" source="x_2057477_wrm"&gt;30669244834543100582c810feaad3e9&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Workspace reservation Management"&gt;30669244834543100582c810feaad3e9&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_dictionary_x_2057477_wrm_workspace_maintenance_null&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-05-31 19:43:08&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;virtual_type&gt;script&lt;/virtual_type&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_dictionary&gt;&lt;/record_update&gt;</payload>
+<payload_hash>550865074</payload_hash>
+<remote_update_set display_value="WRM STRY0009 Workspace Maintenance Table">ba0ee1688359c3900582c810feaad39d</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-06-02 13:48:32</sys_created_on>
+<sys_id>b60ee1688359c3900582c810feaad3a1</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19e7f8fc7d60000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-06-02 13:48:32</sys_updated_on>
+<table>x_2057477_wrm_workspace_maintenance</table>
+<target_name>Workspace Maintenance</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid>4e0c28cccf11cf50641b391efcf78e45</update_guid>
+<update_guid_history>4e0c28cccf11cf50641b391efcf78e45:550865074</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Workspace reservation Management">30669244834543100582c810feaad3e9</application>
+<category>customer</category>
+<comments/>
+<name>sys_documentation_x_2057477_wrm_workspace_maintenance_work_performed_en</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_documentation element="work_performed" label="Work performed " language="en" table="x_2057477_wrm_workspace_maintenance"><sys_documentation action="INSERT_OR_UPDATE"><element>work_performed</element><help/><hint/><label>Work performed </label><language>en</language><name>x_2057477_wrm_workspace_maintenance</name><plural>Work performed s</plural><sys_class_name>sys_documentation</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-05-31 19:54:31</sys_created_on><sys_id>2cae64448351cf500582c810feaad3ce</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Work performed</sys_name><sys_package display_value="Workspace reservation Management" source="x_2057477_wrm">30669244834543100582c810feaad3e9</sys_package><sys_policy/><sys_scope display_value="Workspace reservation Management">30669244834543100582c810feaad3e9</sys_scope><sys_update_name>sys_documentation_x_2057477_wrm_workspace_maintenance_work_performed_en</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-05-31 19:54:31</sys_updated_on><url/><url_target/></sys_documentation></sys_documentation></record_update>]]></payload>
+<payload_hash>-797008914</payload_hash>
+<remote_update_set display_value="WRM STRY0009 Workspace Maintenance Table">ba0ee1688359c3900582c810feaad39d</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-06-02 13:48:32</sys_created_on>
+<sys_id>b60ee1688359c3900582c810feaad3a6</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19e7f9a322b0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-06-02 13:48:32</sys_updated_on>
+<table>x_2057477_wrm_workspace_maintenance</table>
+<target_name>Workspace Maintenance.Work performed </target_name>
+<type>Field Label</type>
+<update_domain>global</update_domain>
+<update_guid>bcae64440b51cf50005876fd5067c9f1</update_guid>
+<update_guid_history>bcae64440b51cf50005876fd5067c9f1:-797008914</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Workspace reservation Management">30669244834543100582c810feaad3e9</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_x_2057477_wrm_workspace_maintenance_workspace</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update&gt;&lt;sys_dictionary action="INSERT_OR_UPDATE" element="workspace" table="x_2057477_wrm_workspace_maintenance"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;attributes/&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label&gt;Workspace &lt;/column_label&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;workspace&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;formula/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;internal_type display_value="Reference"&gt;reference&lt;/internal_type&gt;&lt;mandatory&gt;true&lt;/mandatory&gt;&lt;max_length&gt;32&lt;/max_length&gt;&lt;name&gt;x_2057477_wrm_workspace_maintenance&lt;/name&gt;&lt;next_element/&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference display_value="" name="x_2057477_wrm_workspace_options"&gt;x_2057477_wrm_workspace_options&lt;/reference&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_dictionary&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-05-31 19:45:16&lt;/sys_created_on&gt;&lt;sys_id&gt;465c64008351cf500582c810feaad3a9&lt;/sys_id&gt;&lt;sys_name&gt;Workspace &lt;/sys_name&gt;&lt;sys_package display_value="Workspace reservation Management" source="x_2057477_wrm"&gt;30669244834543100582c810feaad3e9&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Workspace reservation Management"&gt;30669244834543100582c810feaad3e9&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_dictionary_x_2057477_wrm_workspace_maintenance_workspace&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-05-31 19:45:16&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;virtual_type&gt;script&lt;/virtual_type&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_dictionary&gt;&lt;/record_update&gt;</payload>
+<payload_hash>1947639501</payload_hash>
+<remote_update_set display_value="WRM STRY0009 Workspace Maintenance Table">ba0ee1688359c3900582c810feaad39d</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-06-02 13:48:32</sys_created_on>
+<sys_id>ba0ee1688359c3900582c810feaad3a2</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19e7f91b7410000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-06-02 13:48:32</sys_updated_on>
+<table>x_2057477_wrm_workspace_maintenance</table>
+<target_name>Workspace Maintenance.Workspace </target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid>818ce8003f51cf50c06ef6cdf98bb566</update_guid>
+<update_guid_history>818ce8003f51cf50c06ef6cdf98bb566:1947639501</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Workspace reservation Management">30669244834543100582c810feaad3e9</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_3d0ce4cc8311cf500582c810feaad3e4</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>true</admin_overrides><advanced>false</advanced><applies_to/><condition/><controlled_by_refs/><decision_type>allow</decision_type><description>Default access control on x_2057477_wrm_workspace_maintenance</description><local_or_existing>Existing</local_or_existing><name>x_2057477_wrm_workspace_maintenance</name><operation display_value="delete">delete</operation><script/><security_attribute/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-05-31 19:43:08</sys_created_on><sys_id>3d0ce4cc8311cf500582c810feaad3e4</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_2057477_wrm_workspace_maintenance</sys_name><sys_package display_value="Workspace reservation Management" source="x_2057477_wrm">30669244834543100582c810feaad3e9</sys_package><sys_policy/><sys_scope display_value="Workspace reservation Management">30669244834543100582c810feaad3e9</sys_scope><sys_update_name>sys_security_acl_3d0ce4cc8311cf500582c810feaad3e4</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-05-31 19:43:08</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+<payload_hash>-1224751162</payload_hash>
+<remote_update_set display_value="WRM STRY0009 Workspace Maintenance Table">ba0ee1688359c3900582c810feaad39d</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-06-02 13:48:32</sys_created_on>
+<sys_id>ba0ee1688359c3900582c810feaad3a7</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19e7f8fc41a0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-06-02 13:48:32</sys_updated_on>
+<table>x_2057477_wrm_workspace_maintenance</table>
+<target_name>x_2057477_wrm_workspace_maintenance</target_name>
+<type>Access Control</type>
+<update_domain>global</update_domain>
+<update_guid>b50ce4cc8511cf5005960a796d7e50e8</update_guid>
+<update_guid_history>b50ce4cc8511cf5005960a796d7e50e8:-1224751162</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Workspace reservation Management">30669244834543100582c810feaad3e9</application>
+<category>customer</category>
+<comments/>
+<name>sys_app_module_ed0ce4cc8311cf500582c810feaad39c</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module"><sys_app_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="Workspace Maintenance">e10ce4cc8311cf500582c810feaad395</application><assessment/><device_type/><filter/><hint/><homepage/><image/><link_type>LIST</link_type><map_page/><mobile_title>Workspace Maintenances</mobile_title><mobile_view_name>Mobile</mobile_view_name><name>x_2057477_wrm_workspace_maintenance</name><order/><override_menu_roles>false</override_menu_roles><query/><report/><require_confirmation>true</require_confirmation><roles>x_2057477_wrm.workspace_maintenance_user</roles><sys_class_name>sys_app_module</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-05-31 19:43:08</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>ed0ce4cc8311cf500582c810feaad39c</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Workspace Maintenances</sys_name><sys_overrides/><sys_package display_value="Workspace reservation Management" source="x_2057477_wrm">30669244834543100582c810feaad3e9</sys_package><sys_policy/><sys_scope display_value="Workspace reservation Management">30669244834543100582c810feaad3e9</sys_scope><sys_update_name>sys_app_module_ed0ce4cc8311cf500582c810feaad39c</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-05-31 19:43:08</sys_updated_on><timeline_page/><title>Workspace Maintenances</title><uncancelable>false</uncancelable><view_name/><window_name/></sys_app_module></record_update>]]></payload>
+<payload_hash>1001414952</payload_hash>
+<remote_update_set display_value="WRM STRY0009 Workspace Maintenance Table">ba0ee1688359c3900582c810feaad39d</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-06-02 13:48:32</sys_created_on>
+<sys_id>be0ee1688359c3900582c810feaad39e</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19e7f8fc1e70000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-06-02 13:48:32</sys_updated_on>
+<table>x_2057477_wrm_workspace_maintenance</table>
+<target_name>Workspace Maintenances</target_name>
+<type>Module</type>
+<update_domain>global</update_domain>
+<update_guid>a90ce4ccaa11cf506de4bafaf6b2879f</update_guid>
+<update_guid_history>a90ce4ccaa11cf506de4bafaf6b2879f:1001414952</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Workspace reservation Management">30669244834543100582c810feaad3e9</application>
+<category>customer</category>
+<comments/>
+<name>sys_documentation_x_2057477_wrm_workspace_maintenance_assignment_group_en</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_documentation element="assignment_group" label="Assignment group" language="en" table="x_2057477_wrm_workspace_maintenance"><sys_documentation action="INSERT_OR_UPDATE"><element>assignment_group</element><help/><hint/><label>Assignment group</label><language>en</language><name>x_2057477_wrm_workspace_maintenance</name><plural>Assignment groups</plural><sys_class_name>sys_documentation</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-05-31 19:54:31</sys_created_on><sys_id>28ae64448351cf500582c810feaad3d1</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Assignment group</sys_name><sys_package display_value="Workspace reservation Management" source="x_2057477_wrm">30669244834543100582c810feaad3e9</sys_package><sys_policy/><sys_scope display_value="Workspace reservation Management">30669244834543100582c810feaad3e9</sys_scope><sys_update_name>sys_documentation_x_2057477_wrm_workspace_maintenance_assignment_group_en</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-05-31 19:54:31</sys_updated_on><url/><url_target/></sys_documentation></sys_documentation></record_update>]]></payload>
+<payload_hash>-1056985160</payload_hash>
+<remote_update_set display_value="WRM STRY0009 Workspace Maintenance Table">ba0ee1688359c3900582c810feaad39d</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-06-02 13:48:32</sys_created_on>
+<sys_id>be0ee1688359c3900582c810feaad3a3</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19e7f9a323d0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-06-02 13:48:32</sys_updated_on>
+<table>x_2057477_wrm_workspace_maintenance</table>
+<target_name>Workspace Maintenance.Assignment group</target_name>
+<type>Field Label</type>
+<update_domain>global</update_domain>
+<update_guid>3cae64443b51cf50ea46b955bd7c16f4</update_guid>
+<update_guid_history>3cae64443b51cf50ea46b955bd7c16f4:-1056985160</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Workspace reservation Management">30669244834543100582c810feaad3e9</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_role_350ce4cc8311cf500582c810feaad3ea</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-05-31 19:43:08</sys_created_on><sys_id>350ce4cc8311cf500582c810feaad3ea</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_2057477_wrm_workspace_maintenance.x_2057477_wrm.workspace_maintenance_user</sys_name><sys_package display_value="Workspace reservation Management" source="x_2057477_wrm">30669244834543100582c810feaad3e9</sys_package><sys_policy/><sys_scope display_value="Workspace reservation Management">30669244834543100582c810feaad3e9</sys_scope><sys_security_acl display_value="x_2057477_wrm_workspace_maintenance">3d0ce4cc8311cf500582c810feaad3e4</sys_security_acl><sys_update_name>sys_security_acl_role_350ce4cc8311cf500582c810feaad3ea</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-05-31 19:43:08</sys_updated_on><sys_user_role display_value="x_2057477_wrm.workspace_maintenance_user" name="x_2057477_wrm.workspace_maintenance_user">150c60cc8311cf500582c810feaad31c</sys_user_role></sys_security_acl_role></record_update>]]></payload>
+<payload_hash>-112372142</payload_hash>
+<remote_update_set display_value="WRM STRY0009 Workspace Maintenance Table">ba0ee1688359c3900582c810feaad39d</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-06-02 13:48:32</sys_created_on>
+<sys_id>be0ee1688359c3900582c810feaad3a8</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19e7f8fc4460000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-06-02 13:48:32</sys_updated_on>
+<table>x_2057477_wrm_workspace_maintenance</table>
+<target_name>x_2057477_wrm_workspace_maintenance.x_2057477_wrm.workspace_maintenance_user</target_name>
+<type>Access Roles</type>
+<update_domain>global</update_domain>
+<update_guid>750ce4ccc711cf501f1cfdf693183eee</update_guid>
+<update_guid_history>750ce4ccc711cf501f1cfdf693183eee:-112372142</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Workspace reservation Management">30669244834543100582c810feaad3e9</application>
+<category>customer</category>
+<comments/>
+<name>sys_choice_x_2057477_wrm_workspace_maintenance_ticket_status</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_choice action="INSERT_OR_UPDATE" field="ticket_status" table="x_2057477_wrm_workspace_maintenance" version="3"><sys_choice_set action="INSERT_OR_UPDATE"><element>ticket_status</element><name>x_2057477_wrm_workspace_maintenance</name><sys_class_name>sys_choice_set</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-05-31 19:49:55</sys_created_on><sys_id>cd9dacc88311cf500582c810feaad31d</sys_id><sys_mod_count>0</sys_mod_count><sys_name>ticket_status</sys_name><sys_package display_value="Workspace reservation Management" source="x_2057477_wrm">30669244834543100582c810feaad3e9</sys_package><sys_policy/><sys_scope display_value="Workspace reservation Management">30669244834543100582c810feaad3e9</sys_scope><sys_update_name>sys_choice_x_2057477_wrm_workspace_maintenance_ticket_status</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-05-31 19:49:55</sys_updated_on></sys_choice_set><sys_choice action="INSERT_OR_UPDATE"><dependent_value/><element>ticket_status</element><hint/><inactive>false</inactive><label>Closed</label><language>en</language><name>x_2057477_wrm_workspace_maintenance</name><sequence/><synonyms/><sys_created_by>admin</sys_created_by><sys_created_on>2026-05-31 19:50:01</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>c59d20c08351cf500582c810feaad36d</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-05-31 19:50:01</sys_updated_on><value/></sys_choice><sys_choice action="INSERT_OR_UPDATE"><dependent_value/><element>ticket_status</element><hint/><inactive>false</inactive><label>Open</label><language>en</language><name>x_2057477_wrm_workspace_maintenance</name><sequence/><synonyms/><sys_created_by>admin</sys_created_by><sys_created_on>2026-05-31 19:49:55</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>ef8dac808351cf500582c810feaad3cf</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-05-31 19:49:55</sys_updated_on><value/></sys_choice></sys_choice></record_update>]]></payload>
+<payload_hash>-699753481</payload_hash>
+<remote_update_set display_value="WRM STRY0009 Workspace Maintenance Table">ba0ee1688359c3900582c810feaad39d</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-06-02 13:48:32</sys_created_on>
+<sys_id>f20ee1688359c3900582c810feaad39f</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19e7f9610a40000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-06-02 13:48:32</sys_updated_on>
+<table>x_2057477_wrm_workspace_maintenance</table>
+<target_name>Workspace Maintenance.Ticket status</target_name>
+<type>Choice list</type>
+<update_domain>global</update_domain>
+<update_guid>2a9d20c0fa51cf503ee900129be7f74c</update_guid>
+<update_guid_history>2a9d20c0fa51cf503ee900129be7f74c:-699753481,019dacc8dd11cf5009582e44e70fa421:-792575987</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Workspace reservation Management">30669244834543100582c810feaad3e9</application>
+<category>customer</category>
+<comments/>
+<name>sys_documentation_x_2057477_wrm_workspace_maintenance_date_reported_en</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_documentation element="date_reported" label="Date reported" language="en" table="x_2057477_wrm_workspace_maintenance"><sys_documentation action="INSERT_OR_UPDATE"><element>date_reported</element><help/><hint/><label>Date reported</label><language>en</language><name>x_2057477_wrm_workspace_maintenance</name><plural>Date reported</plural><sys_class_name>sys_documentation</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-05-31 19:50:54</sys_created_on><sys_id>a7cd68c08351cf500582c810feaad33a</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Date reported</sys_name><sys_package display_value="Workspace reservation Management" source="x_2057477_wrm">30669244834543100582c810feaad3e9</sys_package><sys_policy/><sys_scope display_value="Workspace reservation Management">30669244834543100582c810feaad3e9</sys_scope><sys_update_name>sys_documentation_x_2057477_wrm_workspace_maintenance_date_reported_en</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-05-31 19:50:54</sys_updated_on><url/><url_target/></sys_documentation></sys_documentation></record_update>]]></payload>
+<payload_hash>-58785887</payload_hash>
+<remote_update_set display_value="WRM STRY0009 Workspace Maintenance Table">ba0ee1688359c3900582c810feaad39d</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-06-02 13:48:32</sys_created_on>
+<sys_id>f20ee1688359c3900582c810feaad3a4</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19e7f96e10d0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-06-02 13:48:32</sys_updated_on>
+<table>x_2057477_wrm_workspace_maintenance</table>
+<target_name>Workspace Maintenance.Date reported</target_name>
+<type>Field Label</type>
+<update_domain>global</update_domain>
+<update_guid>6bcd68c0b751cf505bf98298807dd553</update_guid>
+<update_guid_history>6bcd68c0b751cf505bf98298807dd553:-58785887</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Workspace reservation Management">30669244834543100582c810feaad3e9</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_role_b90ce4cc8311cf500582c810feaad3de</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-05-31 19:43:08</sys_created_on><sys_id>b90ce4cc8311cf500582c810feaad3de</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_2057477_wrm_workspace_maintenance.x_2057477_wrm.workspace_maintenance_user</sys_name><sys_package display_value="Workspace reservation Management" source="x_2057477_wrm">30669244834543100582c810feaad3e9</sys_package><sys_policy/><sys_scope display_value="Workspace reservation Management">30669244834543100582c810feaad3e9</sys_scope><sys_security_acl display_value="x_2057477_wrm_workspace_maintenance">b10ce4cc8311cf500582c810feaad3d9</sys_security_acl><sys_update_name>sys_security_acl_role_b90ce4cc8311cf500582c810feaad3de</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-05-31 19:43:08</sys_updated_on><sys_user_role display_value="x_2057477_wrm.workspace_maintenance_user" name="x_2057477_wrm.workspace_maintenance_user">150c60cc8311cf500582c810feaad31c</sys_user_role></sys_security_acl_role></record_update>]]></payload>
+<payload_hash>-1779001618</payload_hash>
+<remote_update_set display_value="WRM STRY0009 Workspace Maintenance Table">ba0ee1688359c3900582c810feaad39d</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-06-02 13:48:32</sys_created_on>
+<sys_id>f20ee1688359c3900582c810feaad3a9</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19e7f8fc3e90000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-06-02 13:48:32</sys_updated_on>
+<table>x_2057477_wrm_workspace_maintenance</table>
+<target_name>x_2057477_wrm_workspace_maintenance.x_2057477_wrm.workspace_maintenance_user</target_name>
+<type>Access Roles</type>
+<update_domain>global</update_domain>
+<update_guid>f90ce4cce511cf50593a23edb7f34ae2</update_guid>
+<update_guid_history>f90ce4cce511cf50593a23edb7f34ae2:-1779001618</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Workspace reservation Management">30669244834543100582c810feaad3e9</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_x_2057477_wrm_workspace_maintenance_assignment_group</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update&gt;&lt;sys_dictionary action="INSERT_OR_UPDATE" element="assignment_group" table="x_2057477_wrm_workspace_maintenance"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;attributes/&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label&gt;Assignment group&lt;/column_label&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;assignment_group&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;formula/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;internal_type display_value="Reference"&gt;reference&lt;/internal_type&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;32&lt;/max_length&gt;&lt;name&gt;x_2057477_wrm_workspace_maintenance&lt;/name&gt;&lt;next_element/&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference display_value="" name="sys_user_group"&gt;sys_user_group&lt;/reference&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_dictionary&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-05-31 19:54:30&lt;/sys_created_on&gt;&lt;sys_id&gt;bb3e68048351cf500582c810feaad32a&lt;/sys_id&gt;&lt;sys_name&gt;Assignment group&lt;/sys_name&gt;&lt;sys_package display_value="Workspace reservation Management" source="x_2057477_wrm"&gt;30669244834543100582c810feaad3e9&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Workspace reservation Management"&gt;30669244834543100582c810feaad3e9&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_dictionary_x_2057477_wrm_workspace_maintenance_assignment_group&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-05-31 19:54:30&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;virtual_type&gt;script&lt;/virtual_type&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_dictionary&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-1673512144</payload_hash>
+<remote_update_set display_value="WRM STRY0009 Workspace Maintenance Table">ba0ee1688359c3900582c810feaad39d</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-06-02 13:48:32</sys_created_on>
+<sys_id>f60ee1688359c3900582c810feaad3a0</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19e7f9a31f30000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-06-02 13:48:32</sys_updated_on>
+<table>x_2057477_wrm_workspace_maintenance</table>
+<target_name>Workspace Maintenance.Assignment group</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid>a0ae64448e51cf50e7486525bef4dfec</update_guid>
+<update_guid_history>a0ae64448e51cf50e7486525bef4dfec:-1673512144,d0ae64440c51cf5093ca6fd999cfd29d:-1673512144</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Workspace reservation Management">30669244834543100582c810feaad3e9</application>
+<category>customer</category>
+<comments/>
+<name>sys_documentation_x_2057477_wrm_workspace_maintenance_ticket_status_en</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_documentation element="ticket_status" label="Ticket status" language="en" table="x_2057477_wrm_workspace_maintenance"><sys_documentation action="INSERT_OR_UPDATE"><element>ticket_status</element><help/><hint/><label>Ticket status</label><language>en</language><name>x_2057477_wrm_workspace_maintenance</name><plural>Ticket status</plural><sys_class_name>sys_documentation</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-05-31 19:49:39</sys_created_on><sys_id>cd8d2c808351cf500582c810feaad3e6</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Ticket status</sys_name><sys_package display_value="Workspace reservation Management" source="x_2057477_wrm">30669244834543100582c810feaad3e9</sys_package><sys_policy/><sys_scope display_value="Workspace reservation Management">30669244834543100582c810feaad3e9</sys_scope><sys_update_name>sys_documentation_x_2057477_wrm_workspace_maintenance_ticket_status_en</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-05-31 19:49:39</sys_updated_on><url/><url_target/></sys_documentation></sys_documentation></record_update>]]></payload>
+<payload_hash>-2009366625</payload_hash>
+<remote_update_set display_value="WRM STRY0009 Workspace Maintenance Table">ba0ee1688359c3900582c810feaad39d</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-06-02 13:48:32</sys_created_on>
+<sys_id>f60ee1688359c3900582c810feaad3a5</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19e7f95b9df0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-06-02 13:48:32</sys_updated_on>
+<table>x_2057477_wrm_workspace_maintenance</table>
+<target_name>Workspace Maintenance.Ticket status</target_name>
+<type>Field Label</type>
+<update_domain>global</update_domain>
+<update_guid>898d6c805451cf5030ab74ae948a1025</update_guid>
+<update_guid_history>898d6c805451cf5030ab74ae948a1025:-2009366625</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Workspace reservation Management">30669244834543100582c810feaad3e9</application>
+<category>customer</category>
+<comments/>
+<name>sys_user_role_150c60cc8311cf500582c810feaad31c</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role"><sys_user_role action="INSERT_OR_UPDATE"><assignable_by/><can_delegate>true</can_delegate><description/><elevated_privilege>false</elevated_privilege><federated_id/><grantable>true</grantable><includes_roles/><name>x_2057477_wrm.workspace_maintenance_user</name><scoped_admin>false</scoped_admin><suffix>workspace_maintenance_user</suffix><sys_class_name>sys_user_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-05-31 19:43:07</sys_created_on><sys_id>150c60cc8311cf500582c810feaad31c</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_2057477_wrm.workspace_maintenance_user</sys_name><sys_package display_value="Workspace reservation Management" source="x_2057477_wrm">30669244834543100582c810feaad3e9</sys_package><sys_policy/><sys_scope display_value="Workspace reservation Management">30669244834543100582c810feaad3e9</sys_scope><sys_update_name>sys_user_role_150c60cc8311cf500582c810feaad31c</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-05-31 19:43:07</sys_updated_on></sys_user_role></record_update>]]></payload>
+<payload_hash>1188666705</payload_hash>
+<remote_update_set display_value="WRM STRY0009 Workspace Maintenance Table">ba0ee1688359c3900582c810feaad39d</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-06-02 13:48:32</sys_created_on>
+<sys_id>f60ee1688359c3900582c810feaad3aa</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19e7f8fbe5f0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-06-02 13:48:32</sys_updated_on>
+<table/>
+<target_name>x_2057477_wrm.workspace_maintenance_user</target_name>
+<type>Role</type>
+<update_domain>global</update_domain>
+<update_guid>e50ce4ccbe11cf50fddc8608f486e16a</update_guid>
+<update_guid_history>e50ce4ccbe11cf50fddc8608f486e16a:1188666705</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Workspace reservation Management">30669244834543100582c810feaad3e9</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_x_2057477_wrm_workspace_maintenance_number</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update&gt;&lt;sys_dictionary action="INSERT_OR_UPDATE" element="number" table="x_2057477_wrm_workspace_maintenance"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;attributes&gt;ignore_filter_on_new=true&lt;/attributes&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label&gt;Number&lt;/column_label&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value&gt;javascript:global.getNextObjNumberPadded();&lt;/default_value&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;number&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;formula/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;internal_type display_value="String"&gt;string&lt;/internal_type&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;40&lt;/max_length&gt;&lt;name&gt;x_2057477_wrm_workspace_maintenance&lt;/name&gt;&lt;next_element/&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_dictionary&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-05-31 19:43:09&lt;/sys_created_on&gt;&lt;sys_id&gt;ca0c28cc8311cf500582c810feaad35c&lt;/sys_id&gt;&lt;sys_name&gt;Number&lt;/sys_name&gt;&lt;sys_package display_value="Workspace reservation Management" source="x_2057477_wrm"&gt;30669244834543100582c810feaad3e9&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Workspace reservation Management"&gt;30669244834543100582c810feaad3e9&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_dictionary_x_2057477_wrm_workspace_maintenance_number&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-05-31 19:43:09&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;virtual_type&gt;script&lt;/virtual_type&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_dictionary&gt;&lt;/record_update&gt;</payload>
+<payload_hash>437891543</payload_hash>
+<remote_update_set display_value="WRM STRY0009 Workspace Maintenance Table">ba0ee1688359c3900582c810feaad39d</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-06-02 13:48:32</sys_created_on>
+<sys_id>fa0ee1688359c3900582c810feaad3a1</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19e7f8fca4b0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-06-02 13:48:32</sys_updated_on>
+<table>x_2057477_wrm_workspace_maintenance</table>
+<target_name>Workspace Maintenance.Number</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid>1a0c28ccba11cf509183b867650edf79</update_guid>
+<update_guid_history>1a0c28ccba11cf509183b867650edf79:437891543</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Workspace reservation Management">30669244834543100582c810feaad3e9</application>
+<category>customer</category>
+<comments/>
+<name>sys_documentation_x_2057477_wrm_workspace_maintenance__en</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_documentation element="" label="Workspace Maintenance" language="en" table="x_2057477_wrm_workspace_maintenance"><sys_documentation action="INSERT_OR_UPDATE"><element/><help/><hint/><label>Workspace Maintenance</label><language>en</language><name>x_2057477_wrm_workspace_maintenance</name><plural>Workspace Maintenances</plural><sys_class_name>sys_documentation</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-05-31 19:43:09</sys_created_on><sys_id>f50ce4cc8311cf500582c810feaad3f8</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Workspace Maintenance</sys_name><sys_package display_value="Workspace reservation Management" source="x_2057477_wrm">30669244834543100582c810feaad3e9</sys_package><sys_policy/><sys_scope display_value="Workspace reservation Management">30669244834543100582c810feaad3e9</sys_scope><sys_update_name>sys_documentation_x_2057477_wrm_workspace_maintenance__en</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-05-31 19:43:09</sys_updated_on><url/><url_target/></sys_documentation></sys_documentation></record_update>]]></payload>
+<payload_hash>-1467307134</payload_hash>
+<remote_update_set display_value="WRM STRY0009 Workspace Maintenance Table">ba0ee1688359c3900582c810feaad39d</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-06-02 13:48:32</sys_created_on>
+<sys_id>fa0ee1688359c3900582c810feaad3a6</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19e7f8fc7f20000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-06-02 13:48:32</sys_updated_on>
+<table>x_2057477_wrm_workspace_maintenance</table>
+<target_name>Workspace Maintenance</target_name>
+<type>Field Label</type>
+<update_domain>global</update_domain>
+<update_guid>8e0c28ccca11cf509e1bb7b55d821a48</update_guid>
+<update_guid_history>8e0c28ccca11cf509e1bb7b55d821a48:-1467307134</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Workspace reservation Management">30669244834543100582c810feaad3e9</application>
+<category>customer</category>
+<comments/>
+<name>sys_app_application_e10ce4cc8311cf500582c810feaad395</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_application"><sys_app_application action="INSERT_OR_UPDATE"><active>true</active><category display_value="Custom Applications">e0355b31ef303000a61d5a3615c0fb78</category><description/><device_type>browser</device_type><hint/><name>Workspace Maintenance</name><order>100</order><roles>x_2057477_wrm.workspace_maintenance_user</roles><sys_class_name>sys_app_application</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-05-31 19:43:07</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>e10ce4cc8311cf500582c810feaad395</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Workspace Maintenance</sys_name><sys_overrides/><sys_package display_value="Workspace reservation Management" source="x_2057477_wrm">30669244834543100582c810feaad3e9</sys_package><sys_policy/><sys_scope display_value="Workspace reservation Management">30669244834543100582c810feaad3e9</sys_scope><sys_update_name>sys_app_application_e10ce4cc8311cf500582c810feaad395</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-05-31 19:43:07</sys_updated_on><title>Workspace Maintenance</title><view_name/></sys_app_application></record_update>]]></payload>
+<payload_hash>-1062344869</payload_hash>
+<remote_update_set display_value="WRM STRY0009 Workspace Maintenance Table">ba0ee1688359c3900582c810feaad39d</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-06-02 13:48:32</sys_created_on>
+<sys_id>fe0ee1688359c3900582c810feaad39d</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19e7f8fc0de0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-06-02 13:48:32</sys_updated_on>
+<table/>
+<target_name>Workspace Maintenance</target_name>
+<type>Application Menu</type>
+<update_domain>global</update_domain>
+<update_guid>6d0ce4cc0411cf50a998134c5a241e9a</update_guid>
+<update_guid_history>6d0ce4cc0411cf50a998134c5a241e9a:-1062344869</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Workspace reservation Management">30669244834543100582c810feaad3e9</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_x_2057477_wrm_workspace_maintenance_workspace_status</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update&gt;&lt;sys_dictionary action="INSERT_OR_UPDATE" element="workspace_status" table="x_2057477_wrm_workspace_maintenance"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;attributes/&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice&gt;3&lt;/choice&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label&gt;Workspace status&lt;/column_label&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;workspace_status&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;formula/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;internal_type display_value="Choice"&gt;choice&lt;/internal_type&gt;&lt;mandatory&gt;true&lt;/mandatory&gt;&lt;max_length&gt;40&lt;/max_length&gt;&lt;name&gt;x_2057477_wrm_workspace_maintenance&lt;/name&gt;&lt;next_element/&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_dictionary&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-05-31 19:47:22&lt;/sys_created_on&gt;&lt;sys_id&gt;30dca4408351cf500582c810feaad31e&lt;/sys_id&gt;&lt;sys_name&gt;Workspace status&lt;/sys_name&gt;&lt;sys_package display_value="Workspace reservation Management" source="x_2057477_wrm"&gt;30669244834543100582c810feaad3e9&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Workspace reservation Management"&gt;30669244834543100582c810feaad3e9&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_dictionary_x_2057477_wrm_workspace_maintenance_workspace_status&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-05-31 19:47:22&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;virtual_type&gt;script&lt;/virtual_type&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_dictionary&gt;&lt;/record_update&gt;</payload>
+<payload_hash>842640190</payload_hash>
+<remote_update_set display_value="WRM STRY0009 Workspace Maintenance Table">ba0ee1688359c3900582c810feaad39d</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-06-02 13:48:32</sys_created_on>
+<sys_id>fe0ee1688359c3900582c810feaad3a2</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19e7f93a5cc0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-06-02 13:48:32</sys_updated_on>
+<table>x_2057477_wrm_workspace_maintenance</table>
+<target_name>Workspace Maintenance.Workspace status</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid>37fce8401a51cf503b5a6f9d4809fac3</update_guid>
+<update_guid_history>37fce8401a51cf503b5a6f9d4809fac3:842640190</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Workspace reservation Management">30669244834543100582c810feaad3e9</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_b10ce4cc8311cf500582c810feaad3d9</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>true</admin_overrides><advanced>false</advanced><applies_to/><condition/><controlled_by_refs/><decision_type>allow</decision_type><description>Default access control on x_2057477_wrm_workspace_maintenance</description><local_or_existing>Existing</local_or_existing><name>x_2057477_wrm_workspace_maintenance</name><operation display_value="write">write</operation><script/><security_attribute/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-05-31 19:43:08</sys_created_on><sys_id>b10ce4cc8311cf500582c810feaad3d9</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_2057477_wrm_workspace_maintenance</sys_name><sys_package display_value="Workspace reservation Management" source="x_2057477_wrm">30669244834543100582c810feaad3e9</sys_package><sys_policy/><sys_scope display_value="Workspace reservation Management">30669244834543100582c810feaad3e9</sys_scope><sys_update_name>sys_security_acl_b10ce4cc8311cf500582c810feaad3d9</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-05-31 19:43:08</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+<payload_hash>-520891084</payload_hash>
+<remote_update_set display_value="WRM STRY0009 Workspace Maintenance Table">ba0ee1688359c3900582c810feaad39d</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-06-02 13:48:32</sys_created_on>
+<sys_id>fe0ee1688359c3900582c810feaad3a7</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19e7f8fc3b60000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-06-02 13:48:32</sys_updated_on>
+<table>x_2057477_wrm_workspace_maintenance</table>
+<target_name>x_2057477_wrm_workspace_maintenance</target_name>
+<type>Access Control</type>
+<update_domain>global</update_domain>
+<update_guid>3d0ce4cc0711cf5094f3da75262216dc</update_guid>
+<update_guid_history>3d0ce4cc0711cf5094f3da75262216dc:-520891084</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+</unload>

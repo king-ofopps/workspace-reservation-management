@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?><unload unload_date="2026-06-02 13:52:00">
+<sys_remote_update_set action="INSERT_OR_UPDATE">
+<application display_value="Workspace reservation Management">30669244834543100582c810feaad3e9</application>
+<application_name>Workspace reservation Management</application_name>
+<application_scope>x_2057477_wrm</application_scope>
+<application_version>1.0.0</application_version>
+<collisions/>
+<commit_date/>
+<deleted/>
+<description/>
+<inserted/>
+<name>WRM STRY0011 Related Lists</name>
+<origin_sys_id/>
+<parent display_value=""/>
+<release_date/>
+<remote_base_update_set display_value=""/>
+<remote_parent_id/>
+<remote_sys_id>1bb0414883d1cf500582c810feaad35c</remote_sys_id>
+<state>loaded</state>
+<summary/>
+<sys_class_name>sys_remote_update_set</sys_class_name>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-06-02 13:51:59</sys_created_on>
+<sys_id>5ddeade88319c3900582c810feaad3c2</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-06-02 13:51:59</sys_updated_on>
+<update_set display_value=""/>
+<update_source display_value=""/>
+<updated/>
+</sys_remote_update_set>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Workspace reservation Management">30669244834543100582c810feaad3e9</application>
+<category>customer</category>
+<comments/>
+<name>sys_ui_related_x_2057477_wrm_reservation_tracker_null</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_related sys_domain="global" table="x_2057477_wrm_reservation_tracker" version="2" view=""><sys_ui_related_list_entry action="INSERT_OR_UPDATE"><filter/><list_id display_value="Reservation Tracker - Default view" name="x_2057477_wrm_reservation_tracker" related_list="NULL" sys_domain="global" view="Default view">5cf2014c83d1cf500582c810feaad391</list_id><order_by/><position>0</position><related_list>x_2057477_wrm_workspace_maintenance.reservation</related_list><sys_class_name>sys_ui_related_list_entry</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-05-31 21:23:15</sys_created_on><sys_id>50f2014c83d1cf500582c810feaad393</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-05-31 21:23:15</sys_updated_on></sys_ui_related_list_entry><sys_ui_related_list action="INSERT_OR_UPDATE"><calculated_name>Reservation Tracker - Default view</calculated_name><filter/><name>x_2057477_wrm_reservation_tracker</name><order_by/><position/><related_list/><sys_class_name>sys_ui_related_list</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-05-31 21:23:15</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>5cf2014c83d1cf500582c810feaad391</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Reservation Tracker - Default view</sys_name><sys_package display_value="Workspace reservation Management" source="x_2057477_wrm">30669244834543100582c810feaad3e9</sys_package><sys_policy/><sys_scope display_value="Workspace reservation Management">30669244834543100582c810feaad3e9</sys_scope><sys_update_name>sys_ui_related_x_2057477_wrm_reservation_tracker_null</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-05-31 21:23:15</sys_updated_on><sys_user/><view display_value="Default view" name="NULL">Default view</view><view_name/></sys_ui_related_list></sys_ui_related></record_update>]]></payload>
+<payload_hash>-111975491</payload_hash>
+<remote_update_set display_value="WRM STRY0011 Related Lists">5ddeade88319c3900582c810feaad3c2</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-06-02 13:51:59</sys_created_on>
+<sys_id>91deade88319c3900582c810feaad3c3</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19e7feb6a850000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-06-02 13:51:59</sys_updated_on>
+<table>x_2057477_wrm_reservation_tracker</table>
+<target_name>Reservation Tracker</target_name>
+<type>Related Lists</type>
+<update_domain>global</update_domain>
+<update_guid>18f2c94c71d1cf504a2c28126870e7b5</update_guid>
+<update_guid_history>18f2c94c71d1cf504a2c28126870e7b5:-111975491</update_guid_history>
+<update_set display_value=""/>
+<view>Default view</view>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Workspace reservation Management">30669244834543100582c810feaad3e9</application>
+<category>customer</category>
+<comments/>
+<name>sys_ui_related_x_2057477_wrm_workspace_options_null</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_related sys_domain="global" table="x_2057477_wrm_workspace_options" version="2" view=""><sys_ui_related_list_entry action="INSERT_OR_UPDATE"><filter/><list_id display_value="Workspace Options - Default view" name="x_2057477_wrm_workspace_options" related_list="NULL" sys_domain="global" view="Default view">9311454883d1cf500582c810feaad39e</list_id><order_by/><position>0</position><related_list>x_2057477_wrm_reservation_tracker.workspace</related_list><sys_class_name>sys_ui_related_list_entry</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-05-31 21:15:15</sys_created_on><sys_id>5f11454883d1cf500582c810feaad3a0</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-05-31 21:15:15</sys_updated_on></sys_ui_related_list_entry><sys_ui_related_list_entry action="INSERT_OR_UPDATE"><filter/><list_id display_value="Workspace Options - Default view" name="x_2057477_wrm_workspace_options" related_list="NULL" sys_domain="global" view="Default view">9311454883d1cf500582c810feaad39e</list_id><order_by/><position>1</position><related_list>x_2057477_wrm_workspace_maintenance.workspace</related_list><sys_class_name>sys_ui_related_list_entry</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-05-31 21:15:15</sys_created_on><sys_id>5f11454883d1cf500582c810feaad3a1</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-05-31 21:15:15</sys_updated_on></sys_ui_related_list_entry><sys_ui_related_list action="INSERT_OR_UPDATE"><calculated_name>Workspace Options - Default view</calculated_name><filter/><name>x_2057477_wrm_workspace_options</name><order_by/><position/><related_list/><sys_class_name>sys_ui_related_list</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-05-31 21:15:15</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>9311454883d1cf500582c810feaad39e</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Workspace Options - Default view</sys_name><sys_package display_value="Workspace reservation Management" source="x_2057477_wrm">30669244834543100582c810feaad3e9</sys_package><sys_policy/><sys_scope display_value="Workspace reservation Management">30669244834543100582c810feaad3e9</sys_scope><sys_update_name>sys_ui_related_x_2057477_wrm_workspace_options_null</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-05-31 21:15:15</sys_updated_on><sys_user/><view display_value="Default view" name="NULL">Default view</view><view_name/></sys_ui_related_list></sys_ui_related></record_update>]]></payload>
+<payload_hash>323206174</payload_hash>
+<remote_update_set display_value="WRM STRY0011 Related Lists">5ddeade88319c3900582c810feaad3c2</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-06-02 13:51:59</sys_created_on>
+<sys_id>d5deade88319c3900582c810feaad3c3</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19e7fe41c420000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-06-02 13:51:59</sys_updated_on>
+<table>x_2057477_wrm_workspace_options</table>
+<target_name>Workspace Options</target_name>
+<type>Related Lists</type>
+<update_domain>global</update_domain>
+<update_guid>171145484dd1cf50a91353c807f6b6a4</update_guid>
+<update_guid_history>171145484dd1cf50a91353c807f6b6a4:323206174</update_guid_history>
+<update_set display_value=""/>
+<view>Default view</view>
+</sys_update_xml>
+</unload>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?><unload unload_date="2026-06-02 13:42:15">
+<sys_remote_update_set action="INSERT_OR_UPDATE">
+<application display_value="Workspace reservation Management">30669244834543100582c810feaad3e9</application>
+<application_name>Workspace reservation Management</application_name>
+<application_scope>x_2057477_wrm</application_scope>
+<application_version>1.0.0</application_version>
+<collisions/>
+<commit_date/>
+<deleted/>
+<description/>
+<inserted/>
+<name>STRY0010002 Update</name>
+<origin_sys_id/>
+<parent display_value=""/>
+<release_date/>
+<remote_base_update_set display_value=""/>
+<remote_parent_id/>
+<remote_sys_id>32075a84834543100582c810feaad345</remote_sys_id>
+<state>loaded</state>
+<summary/>
+<sys_class_name>sys_remote_update_set</sys_class_name>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-06-02 13:42:14</sys_created_on>
+<sys_id>669c65a48359c3900582c810feaad398</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-06-02 13:42:14</sys_updated_on>
+<update_set display_value=""/>
+<update_source display_value=""/>
+<updated/>
+</sys_remote_update_set>
+</unload>

@@ -1,0 +1,386 @@
+<?xml version="1.0" encoding="UTF-8"?><unload unload_date="2026-06-02 13:52:16">
+<sys_remote_update_set action="INSERT_OR_UPDATE">
+<application display_value="Workspace reservation Management">30669244834543100582c810feaad3e9</application>
+<application_name>Workspace reservation Management</application_name>
+<application_scope>x_2057477_wrm</application_scope>
+<application_version>1.0.0</application_version>
+<collisions/>
+<commit_date/>
+<deleted/>
+<description/>
+<inserted/>
+<name>WRM STRY0012 Form UI Policies</name>
+<origin_sys_id/>
+<parent display_value=""/>
+<release_date/>
+<remote_base_update_set display_value=""/>
+<remote_parent_id/>
+<remote_sys_id>9223c18c83d1cf500582c810feaad31f</remote_sys_id>
+<state>loaded</state>
+<summary/>
+<sys_class_name>sys_remote_update_set</sys_class_name>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-06-02 13:52:15</sys_created_on>
+<sys_id>d9ee6da88359c3900582c810feaad3ee</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-06-02 13:52:15</sys_updated_on>
+<update_set display_value=""/>
+<update_source display_value=""/>
+<updated/>
+</sys_remote_update_set>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Workspace reservation Management">30669244834543100582c810feaad3e9</application>
+<category>customer</category>
+<comments/>
+<name>sys_ui_list_control_ea9341cc83d1cf500582c810feaad373</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_list_control"><sys_ui_list_control action="INSERT_OR_UPDATE"><columns_condition/><disable_nlq>false</disable_nlq><edit_condition/><edit_default_filter/><edit_roles/><empty_condition/><filter_condition/><filter_roles/><hierarchical_lists>false</hierarchical_lists><label/><link_condition/><link_roles/><list_edit_insert_row>false</list_edit_insert_row><list_edit_ref_qual_tag/><list_edit_type/><name>x_2057477_wrm_reservation_tracker</name><new_condition/><new_roles/><omit_columns_if_empty>false</omit_columns_if_empty><omit_count>false</omit_count><omit_count_views>false</omit_count_views><omit_count_views_list/><omit_drilldown_link>false</omit_drilldown_link><omit_edit_button>true</omit_edit_button><omit_filters>false</omit_filters><omit_if_empty>false</omit_if_empty><omit_links>false</omit_links><omit_new_button>false</omit_new_button><omit_related_list_count>false</omit_related_list_count><related_list>x_2057477_wrm_workspace_maintenance.reservation</related_list><sys_class_name>sys_ui_list_control</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-05-31 21:26:20</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>ea9341cc83d1cf500582c810feaad373</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_2057477_wrm_reservation_tracker</sys_name><sys_overrides display_value="">global</sys_overrides><sys_package display_value="Workspace reservation Management" source="x_2057477_wrm">30669244834543100582c810feaad3e9</sys_package><sys_policy/><sys_scope display_value="Workspace reservation Management">30669244834543100582c810feaad3e9</sys_scope><sys_update_name>sys_ui_list_control_ea9341cc83d1cf500582c810feaad373</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-05-31 21:26:20</sys_updated_on></sys_ui_list_control></record_update>]]></payload>
+<payload_hash>2077056015</payload_hash>
+<remote_update_set display_value="WRM STRY0012 Form UI Policies">d9ee6da88359c3900582c810feaad3ee</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-06-02 13:52:15</sys_created_on>
+<sys_id>11ee6da88359c3900582c810feaad3ef</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19e7fee3ed10000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-06-02 13:52:15</sys_updated_on>
+<table>x_2057477_wrm_reservation_tracker</table>
+<target_name>x_2057477_wrm_reservation_tracker</target_name>
+<type>List Control</type>
+<update_domain>global</update_domain>
+<update_guid>65a381cc85d1cf50b56e7f5275e13bc3</update_guid>
+<update_guid_history>65a381cc85d1cf50b56e7f5275e13bc3:2077056015</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Workspace reservation Management">30669244834543100582c810feaad3e9</application>
+<category>customer</category>
+<comments/>
+<name>sys_ui_policy_action_35dac14c8315cf500582c810feaad346</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action"><sys_ui_policy_action action="INSERT_OR_UPDATE"><cleared>false</cleared><disabled>true</disabled><field>location</field><field_message/><field_message_type>none</field_message_type><mandatory>ignore</mandatory><sys_class_name>sys_ui_policy_action</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-05-31 21:57:59</sys_created_on><sys_id>35dac14c8315cf500582c810feaad346</sys_id><sys_mod_count>0</sys_mod_count><sys_name>location</sys_name><sys_package display_value="Workspace reservation Management" source="x_2057477_wrm">30669244834543100582c810feaad3e9</sys_package><sys_policy/><sys_scope display_value="Workspace reservation Management">30669244834543100582c810feaad3e9</sys_scope><sys_update_name>sys_ui_policy_action_35dac14c8315cf500582c810feaad346</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-05-31 21:57:59</sys_updated_on><table>x_2057477_wrm_reservation_tracker</table><ui_policy display_value="Make Core fields read only">3da745008315cf500582c810feaad39d</ui_policy><value/><value_action>ignore</value_action><visible>ignore</visible></sys_ui_policy_action><sys_translated_text action="delete_multiple" query="documentkey=35dac14c8315cf500582c810feaad346"/></record_update>]]></payload>
+<payload_hash>-1580820967</payload_hash>
+<remote_update_set display_value="WRM STRY0012 Form UI Policies">d9ee6da88359c3900582c810feaad3ee</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-06-02 13:52:15</sys_created_on>
+<sys_id>15ee6da88359c3900582c810feaad3f0</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19e800b3a110000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-06-02 13:52:15</sys_updated_on>
+<table>x_2057477_wrm_reservation_tracker</table>
+<target_name>location</target_name>
+<type>UI Policy Action</type>
+<update_domain>global</update_domain>
+<update_guid>d5ea454c9415cf503d75dc82381dc6c4</update_guid>
+<update_guid_history>d5ea454c9415cf503d75dc82381dc6c4:-1580820967</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Workspace reservation Management">30669244834543100582c810feaad3e9</application>
+<category>customer</category>
+<comments/>
+<name>sys_ui_policy_action_770ec9c08355cf500582c810feaad36c</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action"><sys_ui_policy_action action="INSERT_OR_UPDATE"><cleared>false</cleared><disabled>ignore</disabled><field>additional_notes</field><field_message/><field_message_type>none</field_message_type><mandatory>ignore</mandatory><sys_class_name>sys_ui_policy_action</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-05-31 22:12:02</sys_created_on><sys_id>770ec9c08355cf500582c810feaad36c</sys_id><sys_mod_count>0</sys_mod_count><sys_name>additional_notes</sys_name><sys_package display_value="Workspace reservation Management" source="x_2057477_wrm">30669244834543100582c810feaad3e9</sys_package><sys_policy/><sys_scope display_value="Workspace reservation Management">30669244834543100582c810feaad3e9</sys_scope><sys_update_name>sys_ui_policy_action_770ec9c08355cf500582c810feaad36c</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-05-31 22:12:02</sys_updated_on><table>x_2057477_wrm_reservation_tracker</table><ui_policy display_value="Hide reservation details">ad0c894c8315cf500582c810feaad3dd</ui_policy><value/><value_action>ignore</value_action><visible>false</visible></sys_ui_policy_action><sys_translated_text action="delete_multiple" query="documentkey=770ec9c08355cf500582c810feaad36c"/></record_update>]]></payload>
+<payload_hash>12652555</payload_hash>
+<remote_update_set display_value="WRM STRY0012 Form UI Policies">d9ee6da88359c3900582c810feaad3ee</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-06-02 13:52:15</sys_created_on>
+<sys_id>19ee6da88359c3900582c810feaad3f1</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19e8018156b0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-06-02 13:52:15</sys_updated_on>
+<table>x_2057477_wrm_reservation_tracker</table>
+<target_name>additional_notes</target_name>
+<type>UI Policy Action</type>
+<update_domain>global</update_domain>
+<update_guid>fe1e0dc05f55cf50ada63dfd8a921c8f</update_guid>
+<update_guid_history>fe1e0dc05f55cf50ada63dfd8a921c8f:12652555</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Workspace reservation Management">30669244834543100582c810feaad3e9</application>
+<category>customer</category>
+<comments/>
+<name>sys_ui_policy_3da745008315cf500582c810feaad39d</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_ui_policy"&gt;&lt;sys_ui_policy action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;conditions table="x_2057477_wrm_reservation_tracker"&gt;reservation_statusANYTHING^EQ&lt;item display_value="-- None --" endquery="false" field="reservation_status" goto="false" newquery="false" operator="ANYTHING" or="false" value=""/&gt;&lt;item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/&gt;&lt;/conditions&gt;&lt;description/&gt;&lt;global&gt;true&lt;/global&gt;&lt;inherit&gt;false&lt;/inherit&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;model_id/&gt;&lt;model_table/&gt;&lt;on_load&gt;true&lt;/on_load&gt;&lt;order&gt;100&lt;/order&gt;&lt;reverse_if_false&gt;true&lt;/reverse_if_false&gt;&lt;run_scripts&gt;false&lt;/run_scripts&gt;&lt;script_false&gt;&lt;![CDATA[function onCondition() {
+
+}]]&gt;&lt;/script_false&gt;&lt;script_true&gt;&lt;![CDATA[function onCondition() {
+
+}]]&gt;&lt;/script_true&gt;&lt;set_values/&gt;&lt;short_description&gt;Make Core fields read only&lt;/short_description&gt;&lt;sys_class_name&gt;sys_ui_policy&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-05-31 21:45:07&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;3da745008315cf500582c810feaad39d&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;Make Core fields read only&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Workspace reservation Management" source="x_2057477_wrm"&gt;30669244834543100582c810feaad3e9&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Workspace reservation Management"&gt;30669244834543100582c810feaad3e9&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ui_policy_3da745008315cf500582c810feaad39d&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-05-31 21:45:07&lt;/sys_updated_on&gt;&lt;table&gt;x_2057477_wrm_reservation_tracker&lt;/table&gt;&lt;ui_type&gt;0&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_ui_policy&gt;&lt;/record_update&gt;</payload>
+<payload_hash>858800981</payload_hash>
+<remote_update_set display_value="WRM STRY0012 Form UI Policies">d9ee6da88359c3900582c810feaad3ee</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-06-02 13:52:15</sys_created_on>
+<sys_id>55ee6da88359c3900582c810feaad3ef</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19e7fff70ce0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-06-02 13:52:15</sys_updated_on>
+<table>x_2057477_wrm_reservation_tracker</table>
+<target_name>Make Core fields read only</target_name>
+<type>UI Policy</type>
+<update_domain>global</update_domain>
+<update_guid>20f789c4cf15cf50cf287814fff158df</update_guid>
+<update_guid_history>20f789c4cf15cf50cf287814fff158df:858800981</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Workspace reservation Management">30669244834543100582c810feaad3e9</application>
+<category>customer</category>
+<comments/>
+<name>sys_ui_policy_action_4add05c08355cf500582c810feaad3e7</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action"><sys_ui_policy_action action="INSERT_OR_UPDATE"><cleared>false</cleared><disabled>ignore</disabled><field>description</field><field_message/><field_message_type>none</field_message_type><mandatory>ignore</mandatory><sys_class_name>sys_ui_policy_action</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-05-31 22:11:34</sys_created_on><sys_id>4add05c08355cf500582c810feaad3e7</sys_id><sys_mod_count>0</sys_mod_count><sys_name>description</sys_name><sys_package display_value="Workspace reservation Management" source="x_2057477_wrm">30669244834543100582c810feaad3e9</sys_package><sys_policy/><sys_scope display_value="Workspace reservation Management">30669244834543100582c810feaad3e9</sys_scope><sys_update_name>sys_ui_policy_action_4add05c08355cf500582c810feaad3e7</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-05-31 22:11:34</sys_updated_on><table>x_2057477_wrm_reservation_tracker</table><ui_policy display_value="Hide reservation details">ad0c894c8315cf500582c810feaad3dd</ui_policy><value/><value_action>ignore</value_action><visible>false</visible></sys_ui_policy_action><sys_translated_text action="delete_multiple" query="documentkey=4add05c08355cf500582c810feaad3e7"/></record_update>]]></payload>
+<payload_hash>-1147809561</payload_hash>
+<remote_update_set display_value="WRM STRY0012 Form UI Policies">d9ee6da88359c3900582c810feaad3ee</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-06-02 13:52:15</sys_created_on>
+<sys_id>59ee6da88359c3900582c810feaad3f0</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19e8017a7a50000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-06-02 13:52:15</sys_updated_on>
+<table>x_2057477_wrm_reservation_tracker</table>
+<target_name>description</target_name>
+<type>UI Policy Action</type>
+<update_domain>global</update_domain>
+<update_guid>cc0e49c04955cf5012846c7c16cda553</update_guid>
+<update_guid_history>cc0e49c04955cf5012846c7c16cda553:-1147809561</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Workspace reservation Management">30669244834543100582c810feaad3e9</application>
+<category>customer</category>
+<comments/>
+<name>sys_ui_policy_action_7a38c1088315cf500582c810feaad3df</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action"><sys_ui_policy_action action="INSERT_OR_UPDATE"><cleared>false</cleared><disabled>true</disabled><field>request_number</field><field_message/><field_message_type>none</field_message_type><mandatory>ignore</mandatory><sys_class_name>sys_ui_policy_action</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-05-31 21:56:31</sys_created_on><sys_id>7a38c1088315cf500582c810feaad3df</sys_id><sys_mod_count>0</sys_mod_count><sys_name>request_number</sys_name><sys_package display_value="Workspace reservation Management" source="x_2057477_wrm">30669244834543100582c810feaad3e9</sys_package><sys_policy/><sys_scope display_value="Workspace reservation Management">30669244834543100582c810feaad3e9</sys_scope><sys_update_name>sys_ui_policy_action_7a38c1088315cf500582c810feaad3df</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-05-31 21:56:31</sys_updated_on><table>x_2057477_wrm_reservation_tracker</table><ui_policy display_value="Make Core fields read only">3da745008315cf500582c810feaad39d</ui_policy><value/><value_action>ignore</value_action><visible>ignore</visible></sys_ui_policy_action><sys_translated_text action="delete_multiple" query="documentkey=7a38c1088315cf500582c810feaad3df"/></record_update>]]></payload>
+<payload_hash>113281625</payload_hash>
+<remote_update_set display_value="WRM STRY0012 Form UI Policies">d9ee6da88359c3900582c810feaad3ee</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-06-02 13:52:15</sys_created_on>
+<sys_id>5dee6da88359c3900582c810feaad3f1</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19e8009e1640000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-06-02 13:52:15</sys_updated_on>
+<table>x_2057477_wrm_reservation_tracker</table>
+<target_name>request_number</target_name>
+<type>UI Policy Action</type>
+<update_domain>global</update_domain>
+<update_guid>eb8a490cee15cf5029b43d404f0e7dc6</update_guid>
+<update_guid_history>eb8a490cee15cf5029b43d404f0e7dc6:113281625</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Workspace reservation Management">30669244834543100582c810feaad3e9</application>
+<category>customer</category>
+<comments/>
+<name>sys_ui_policy_ad0c894c8315cf500582c810feaad3dd</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_ui_policy"&gt;&lt;sys_ui_policy action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;conditions table="x_2057477_wrm_reservation_tracker"&gt;reservation_statusINcancelled,no-show^stateIN3,7^EQ&lt;item display_value="cancelled,no-show" endquery="false" field="reservation_status" goto="false" newquery="false" operator="IN" or="false" value="cancelled,no-show"/&gt;&lt;item display_value="3,7" endquery="false" field="state" goto="false" newquery="false" operator="IN" or="false" value="3,7"/&gt;&lt;item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/&gt;&lt;/conditions&gt;&lt;description/&gt;&lt;global&gt;true&lt;/global&gt;&lt;inherit&gt;false&lt;/inherit&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;model_id/&gt;&lt;model_table/&gt;&lt;on_load&gt;true&lt;/on_load&gt;&lt;order&gt;100&lt;/order&gt;&lt;reverse_if_false&gt;true&lt;/reverse_if_false&gt;&lt;run_scripts&gt;false&lt;/run_scripts&gt;&lt;script_false&gt;&lt;![CDATA[function onCondition() {
+
+}]]&gt;&lt;/script_false&gt;&lt;script_true&gt;&lt;![CDATA[function onCondition() {
+
+}]]&gt;&lt;/script_true&gt;&lt;set_values/&gt;&lt;short_description&gt;Hide reservation details&lt;/short_description&gt;&lt;sys_class_name&gt;sys_ui_policy&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-05-31 22:05:45&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;ad0c894c8315cf500582c810feaad3dd&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;Hide reservation details&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Workspace reservation Management" source="x_2057477_wrm"&gt;30669244834543100582c810feaad3e9&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Workspace reservation Management"&gt;30669244834543100582c810feaad3e9&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ui_policy_ad0c894c8315cf500582c810feaad3dd&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-05-31 22:05:45&lt;/sys_updated_on&gt;&lt;table&gt;x_2057477_wrm_reservation_tracker&lt;/table&gt;&lt;ui_type&gt;0&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_ui_policy&gt;&lt;/record_update&gt;</payload>
+<payload_hash>1553642993</payload_hash>
+<remote_update_set display_value="WRM STRY0012 Form UI Policies">d9ee6da88359c3900582c810feaad3ee</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-06-02 13:52:15</sys_created_on>
+<sys_id>5deeada88359c3900582c810feaad36e</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19e801253ad0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-06-02 13:52:15</sys_updated_on>
+<table>x_2057477_wrm_reservation_tracker</table>
+<target_name>Hide reservation details</target_name>
+<type>UI Policy</type>
+<update_domain>global</update_domain>
+<update_guid>3aac8d00a855cf503d816f8d00f43d7d</update_guid>
+<update_guid_history>3aac8d00a855cf503d816f8d00f43d7d:1553642993</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Workspace reservation Management">30669244834543100582c810feaad3e9</application>
+<category>customer</category>
+<comments/>
+<name>sys_ui_policy_action_bfeac54c8315cf500582c810feaad36e</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action"><sys_ui_policy_action action="INSERT_OR_UPDATE"><cleared>false</cleared><disabled>true</disabled><field>workspace</field><field_message/><field_message_type>none</field_message_type><mandatory>ignore</mandatory><sys_class_name>sys_ui_policy_action</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-05-31 21:58:29</sys_created_on><sys_id>bfeac54c8315cf500582c810feaad36e</sys_id><sys_mod_count>0</sys_mod_count><sys_name>workspace</sys_name><sys_package display_value="Workspace reservation Management" source="x_2057477_wrm">30669244834543100582c810feaad3e9</sys_package><sys_policy/><sys_scope display_value="Workspace reservation Management">30669244834543100582c810feaad3e9</sys_scope><sys_update_name>sys_ui_policy_action_bfeac54c8315cf500582c810feaad36e</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-05-31 21:58:29</sys_updated_on><table>x_2057477_wrm_reservation_tracker</table><ui_policy display_value="Make Core fields read only">3da745008315cf500582c810feaad39d</ui_policy><value/><value_action>ignore</value_action><visible>ignore</visible></sys_ui_policy_action><sys_translated_text action="delete_multiple" query="documentkey=bfeac54c8315cf500582c810feaad36e"/></record_update>]]></payload>
+<payload_hash>-748811765</payload_hash>
+<remote_update_set display_value="WRM STRY0012 Form UI Policies">d9ee6da88359c3900582c810feaad3ee</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-06-02 13:52:15</sys_created_on>
+<sys_id>91ee6da88359c3900582c810feaad3f2</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19e800bad990000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-06-02 13:52:15</sys_updated_on>
+<table>x_2057477_wrm_reservation_tracker</table>
+<target_name>workspace</target_name>
+<type>UI Policy Action</type>
+<update_domain>global</update_domain>
+<update_guid>d00bc54ca115cf505e1720a2b80ad0cd</update_guid>
+<update_guid_history>d00bc54ca115cf505e1720a2b80ad0cd:-748811765</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Workspace reservation Management">30669244834543100582c810feaad3e9</application>
+<category>customer</category>
+<comments/>
+<name>sys_ui_policy_ea2ecdc08355cf500582c810feaad3a1</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_ui_policy"&gt;&lt;sys_ui_policy action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;conditions table="x_2057477_wrm_reservation_tracker"&gt;reservation_status=checked-out^stateIN3,7^EQ&lt;item display_value="Checked-Out" endquery="false" field="reservation_status" goto="false" newquery="false" operator="=" or="false" value="checked-out"/&gt;&lt;item display_value="3,7" endquery="false" field="state" goto="false" newquery="false" operator="IN" or="false" value="3,7"/&gt;&lt;item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/&gt;&lt;/conditions&gt;&lt;description/&gt;&lt;global&gt;true&lt;/global&gt;&lt;inherit&gt;false&lt;/inherit&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;model_id/&gt;&lt;model_table/&gt;&lt;on_load&gt;true&lt;/on_load&gt;&lt;order&gt;100&lt;/order&gt;&lt;reverse_if_false&gt;true&lt;/reverse_if_false&gt;&lt;run_scripts&gt;false&lt;/run_scripts&gt;&lt;script_false&gt;&lt;![CDATA[function onCondition() {
+
+}]]&gt;&lt;/script_false&gt;&lt;script_true&gt;&lt;![CDATA[function onCondition() {
+
+}]]&gt;&lt;/script_true&gt;&lt;set_values/&gt;&lt;short_description&gt;Show maintenance field&lt;/short_description&gt;&lt;sys_class_name&gt;sys_ui_policy&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-05-31 22:12:42&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;ea2ecdc08355cf500582c810feaad3a1&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name&gt;Show maintenance field&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Workspace reservation Management" source="x_2057477_wrm"&gt;30669244834543100582c810feaad3e9&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Workspace reservation Management"&gt;30669244834543100582c810feaad3e9&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ui_policy_ea2ecdc08355cf500582c810feaad3a1&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-05-31 22:15:42&lt;/sys_updated_on&gt;&lt;table&gt;x_2057477_wrm_reservation_tracker&lt;/table&gt;&lt;ui_type&gt;0&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_ui_policy&gt;&lt;/record_update&gt;</payload>
+<payload_hash>1396672291</payload_hash>
+<remote_update_set display_value="WRM STRY0012 Form UI Policies">d9ee6da88359c3900582c810feaad3ee</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-06-02 13:52:15</sys_created_on>
+<sys_id>91eeada88359c3900582c810feaad36f</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19e801b728b0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-06-02 13:52:15</sys_updated_on>
+<table>x_2057477_wrm_reservation_tracker</table>
+<target_name>Show maintenance field</target_name>
+<type>UI Policy</type>
+<update_domain>global</update_domain>
+<update_guid>f0fec1444155cf50e4a0ff23e3a69931</update_guid>
+<update_guid_history>f0fec1444155cf50e4a0ff23e3a69931:1396672291,3c4e81043b55cf50d7e9e757cce6ed81:-512502511</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Workspace reservation Management">30669244834543100582c810feaad3e9</application>
+<category>customer</category>
+<comments/>
+<name>sys_ui_policy_8ed409408315cf500582c810feaad381</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_ui_policy"&gt;&lt;sys_ui_policy action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;conditions table="x_2057477_wrm_reservation_tracker"&gt;reservation_statusANYTHING^EQ&lt;item display_value="-- None --" endquery="false" field="reservation_status" goto="false" newquery="false" operator="ANYTHING" or="false" value=""/&gt;&lt;item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/&gt;&lt;/conditions&gt;&lt;description/&gt;&lt;global&gt;true&lt;/global&gt;&lt;inherit&gt;false&lt;/inherit&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;model_id/&gt;&lt;model_table/&gt;&lt;on_load&gt;true&lt;/on_load&gt;&lt;order&gt;100&lt;/order&gt;&lt;reverse_if_false&gt;true&lt;/reverse_if_false&gt;&lt;run_scripts&gt;false&lt;/run_scripts&gt;&lt;script_false&gt;&lt;![CDATA[function onCondition() {
+
+}]]&gt;&lt;/script_false&gt;&lt;script_true&gt;&lt;![CDATA[function onCondition() {
+
+}]]&gt;&lt;/script_true&gt;&lt;set_values/&gt;&lt;short_description&gt;Make Core-fields read only&lt;/short_description&gt;&lt;sys_class_name&gt;sys_ui_policy&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-05-31 21:44:06&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;8ed409408315cf500582c810feaad381&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;Make Core-fields read only&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Workspace reservation Management" source="x_2057477_wrm"&gt;30669244834543100582c810feaad3e9&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Workspace reservation Management"&gt;30669244834543100582c810feaad3e9&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ui_policy_8ed409408315cf500582c810feaad381&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-05-31 21:44:06&lt;/sys_updated_on&gt;&lt;table&gt;x_2057477_wrm_reservation_tracker&lt;/table&gt;&lt;ui_type&gt;0&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_ui_policy&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-364979019</payload_hash>
+<remote_update_set display_value="WRM STRY0012 Form UI Policies">d9ee6da88359c3900582c810feaad3ee</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-06-02 13:52:15</sys_created_on>
+<sys_id>99ee6da88359c3900582c810feaad3ef</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19e7ffe81ad0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-06-02 13:52:15</sys_updated_on>
+<table>x_2057477_wrm_reservation_tracker</table>
+<target_name>Make Core-fields read only</target_name>
+<type>UI Policy</type>
+<update_domain>global</update_domain>
+<update_guid>29b7c1c42f15cf5022fc5d264842e265</update_guid>
+<update_guid_history>29b7c1c42f15cf5022fc5d264842e265:-364979019</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Workspace reservation Management">30669244834543100582c810feaad3e9</application>
+<category>customer</category>
+<comments/>
+<name>sys_ui_policy_action_729ac90c8315cf500582c810feaad3c5</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action"><sys_ui_policy_action action="INSERT_OR_UPDATE"><cleared>false</cleared><disabled>true</disabled><field>reserved_for</field><field_message/><field_message_type>none</field_message_type><mandatory>ignore</mandatory><sys_class_name>sys_ui_policy_action</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-05-31 21:57:27</sys_created_on><sys_id>729ac90c8315cf500582c810feaad3c5</sys_id><sys_mod_count>0</sys_mod_count><sys_name>reserved_for</sys_name><sys_package display_value="Workspace reservation Management" source="x_2057477_wrm">30669244834543100582c810feaad3e9</sys_package><sys_policy/><sys_scope display_value="Workspace reservation Management">30669244834543100582c810feaad3e9</sys_scope><sys_update_name>sys_ui_policy_action_729ac90c8315cf500582c810feaad3c5</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-05-31 21:57:27</sys_updated_on><table>x_2057477_wrm_reservation_tracker</table><ui_policy display_value="Make Core fields read only">3da745008315cf500582c810feaad39d</ui_policy><value/><value_action>ignore</value_action><visible>ignore</visible></sys_ui_policy_action><sys_translated_text action="delete_multiple" query="documentkey=729ac90c8315cf500582c810feaad3c5"/></record_update>]]></payload>
+<payload_hash>-2133072519</payload_hash>
+<remote_update_set display_value="WRM STRY0012 Form UI Policies">d9ee6da88359c3900582c810feaad3ee</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-06-02 13:52:15</sys_created_on>
+<sys_id>9dee6da88359c3900582c810feaad3f0</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19e800abb100000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-06-02 13:52:15</sys_updated_on>
+<table>x_2057477_wrm_reservation_tracker</table>
+<target_name>reserved_for</target_name>
+<type>UI Policy Action</type>
+<update_domain>global</update_domain>
+<update_guid>99ca4d0c7015cf50b25be4e2c84fcaae</update_guid>
+<update_guid_history>99ca4d0c7015cf50b25be4e2c84fcaae:-2133072519</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Workspace reservation Management">30669244834543100582c810feaad3e9</application>
+<category>customer</category>
+<comments/>
+<name>sys_ui_policy_action_729d0d808355cf500582c810feaad32b</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action"><sys_ui_policy_action action="INSERT_OR_UPDATE"><cleared>false</cleared><disabled>ignore</disabled><field>start_date</field><field_message/><field_message_type>none</field_message_type><mandatory>ignore</mandatory><sys_class_name>sys_ui_policy_action</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-05-31 22:10:42</sys_created_on><sys_id>729d0d808355cf500582c810feaad32b</sys_id><sys_mod_count>0</sys_mod_count><sys_name>start_date</sys_name><sys_package display_value="Workspace reservation Management" source="x_2057477_wrm">30669244834543100582c810feaad3e9</sys_package><sys_policy/><sys_scope display_value="Workspace reservation Management">30669244834543100582c810feaad3e9</sys_scope><sys_update_name>sys_ui_policy_action_729d0d808355cf500582c810feaad32b</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-05-31 22:10:42</sys_updated_on><table>x_2057477_wrm_reservation_tracker</table><ui_policy display_value="Hide reservation details">ad0c894c8315cf500582c810feaad3dd</ui_policy><value/><value_action>ignore</value_action><visible>false</visible></sys_ui_policy_action><sys_translated_text action="delete_multiple" query="documentkey=729d0d808355cf500582c810feaad32b"/></record_update>]]></payload>
+<payload_hash>-1577260661</payload_hash>
+<remote_update_set display_value="WRM STRY0012 Form UI Policies">d9ee6da88359c3900582c810feaad3ee</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-06-02 13:52:15</sys_created_on>
+<sys_id>d1ee6da88359c3900582c810feaad3f1</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19e8016dbec0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-06-02 13:52:15</sys_updated_on>
+<table>x_2057477_wrm_reservation_tracker</table>
+<target_name>start_date</target_name>
+<type>UI Policy Action</type>
+<update_domain>global</update_domain>
+<update_guid>d3cd81c04855cf50cbcb2ec8a3657c6d</update_guid>
+<update_guid_history>d3cd81c04855cf50cbcb2ec8a3657c6d:-1577260661</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Workspace reservation Management">30669244834543100582c810feaad3e9</application>
+<category>customer</category>
+<comments/>
+<name>sys_ui_policy_action_031419cc8355cf500582c810feaad35b</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action"><sys_ui_policy_action action="INSERT_OR_UPDATE"><cleared>false</cleared><disabled>ignore</disabled><field>close_notes</field><field_message/><field_message_type>none</field_message_type><mandatory>ignore</mandatory><sys_class_name>sys_ui_policy_action</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-05-31 22:38:35</sys_created_on><sys_id>031419cc8355cf500582c810feaad35b</sys_id><sys_mod_count>0</sys_mod_count><sys_name>close_notes</sys_name><sys_package display_value="Workspace reservation Management" source="x_2057477_wrm">30669244834543100582c810feaad3e9</sys_package><sys_policy/><sys_scope display_value="Workspace reservation Management">30669244834543100582c810feaad3e9</sys_scope><sys_update_name>sys_ui_policy_action_031419cc8355cf500582c810feaad35b</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-05-31 22:38:35</sys_updated_on><table>x_2057477_wrm_reservation_tracker</table><ui_policy display_value="Show maintenance field">ea2ecdc08355cf500582c810feaad3a1</ui_policy><value/><value_action>ignore</value_action><visible>true</visible></sys_ui_policy_action><sys_translated_text action="delete_multiple" query="documentkey=031419cc8355cf500582c810feaad35b"/></record_update>]]></payload>
+<payload_hash>1117348007</payload_hash>
+<remote_update_set display_value="WRM STRY0012 Form UI Policies">d9ee6da88359c3900582c810feaad3ee</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-06-02 13:52:15</sys_created_on>
+<sys_id>ddee6da88359c3900582c810feaad3ef</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19e803064bc0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-06-02 13:52:15</sys_updated_on>
+<table>x_2057477_wrm_reservation_tracker</table>
+<target_name>close_notes</target_name>
+<type>UI Policy Action</type>
+<update_domain>global</update_domain>
+<update_guid>732459cc5b55cf502591c49fde2a217d</update_guid>
+<update_guid_history>732459cc5b55cf502591c49fde2a217d:1117348007</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+</unload>
